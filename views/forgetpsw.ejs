@@ -44,8 +44,8 @@
           <div>
             <input type="checkbox" checked><span>您确认并同意到位用户协议</span>
           </div>
-          <span style="color: red"><%=msg%></span>
-          <input type="submit" value="重置密码" id="submit">
+          <span style="color: red" id="tishimsg"><%=msg%></span>
+          <input type="submit" value="重置密码" id="submit" disabled="disabled" style="background-color: gray">
         </form>
         <div class="getmima">
           获取验证码
@@ -82,7 +82,7 @@
     event.stopPropagation();
     let number = $('#phone').val()
     if (!number) {
-      alert('请输入手机号')
+      $('#tishimsg').text("请输入手机号！！")
       return
     }
     console.log(number)
@@ -110,8 +110,16 @@
     $('#code_input').blur(function () {
       var res = verifyCode.validate($(this).val())
       if(!res){
-        alert("验证码错误！！");
-        return
+        $('#tishimsg').text("验证码错误！！")
+        $('#submit').prop({
+          'disabled': 'disabled',
+          'style': 'background-color: gray'
+        })
+      }else {
+        $('#submit').prop({
+          'disabled': true,
+          'style': 'background-color: #337AB7'
+        })
       }
     })
   })
