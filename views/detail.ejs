@@ -22,23 +22,21 @@
             <h2>所有分类&nbsp;>&nbsp;家庭保洁&nbsp;>&nbsp;<em>保洁</em></h2>
             <div class="detail-content-left">
                 <div class="detail-c-l-top">
-                </div>
-
-                <script id="detail" type="text/html">
                     <div class="detail-c-l-top-left detail-c-l-t-item">
-                        <img style="width: 160px" src="{{imgUrl}}" alt="">
+                        <img style="width: 160px" src="<%=imgUrl%>" alt="">
                     </div>
                     <div class="detail-c-l-top-middle detail-c-l-t-item">
-                        <p>{{CName}}</p>
-                        <p>价格 <em>{{price}}元/次</em>&nbsp;&nbsp;原价{{oldPrice}}</p>
-                        <p>已售 <em>{{hasSelled}}</em></p>
+                        <p><%=CName%></p>
+                        <p>价格 <em><%=price%>元/次</em>&nbsp;&nbsp;原价<%=oldPrice%></p>
+                        <p>已售 <em><%=hasSelled%></em></p>
                     </div>
                     <div class="detail-c-l-top-right detail-c-l-t-item">
-                        <img src="./img/detail/下载.png" alt="">
+                        <img src="/img/detail/下载.png" alt="">
                         <p>扫一扫</p>
                         <p><em>立即预约</em></p>
                     </div>
-                </script>
+                </div>
+
 
 
 
@@ -143,13 +141,7 @@
             document.addEventListener('DOMMouseScroll',scrollFunc,false);
         }//W3C
         window.onmousewheel=document.onmousewheel=scrollFunc;
-        $(function () {
-            $.get('/users/api/detail', function (data) {
-                var html = template('detail', data[0])
-                console.log(html)
-                $('.detail-c-l-top').append(html)
-            })
-        })
+
     </script>
     </body>
 </html>

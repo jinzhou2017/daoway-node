@@ -88,7 +88,7 @@ body {
     width: 101px;
     white-space: nowrap;
 }
-.top .nav .nav-middle a span {
+.top .nav .nav-middle a #qiehuan {
     display: inline-block;
     width: 64px;
     color: red;
@@ -145,10 +145,12 @@ body {
 .ban-menu-list{
     height: 100%;
     width: 100%;
+
 }
 .ban-menu-item{
     width: 180px;
     height: 42px;
+
     /*position: relative;*/
 
 }
@@ -161,6 +163,7 @@ body {
     font-weight: 600;
     color: white;
     text-align: center;
+    cursor: pointer;
 
 }
 .ban-menu-item .icon{

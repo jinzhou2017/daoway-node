@@ -45,30 +45,34 @@
                     </div>
                 </div>
                 <ul class="mores-content-left-list">
-                    <script id="list" type="text/html">
-                        {{each goods item i}}
-                        <li>
-                            <a href="/users/api/detail?detailId={{item.detailId}}">
-                            <div class="item-left">
-                                <img src="{{item.imgUrl}}" alt="">
-                            </div>
-                            <div class="item-middle">
-                                <h3>{{item.CName}}</h3>
-                                <p>{{item.description}}</p>
-                                <p> <em>{{item.price}}/小时</em> &nbsp;&nbsp;&nbsp;<i class="huaxian">{{item.oldPrice}}</i>元</p>
-                                <p><span></span>云家政已售{{item.hasSelled}}&nbsp;&nbsp;&nbsp;{{item.favorable}}</p>
-                            </div>
-                            <div class="item-right">
-                                <div >
-                                    <p>最快上门</p>
-                                    <p>2小时</p>
+                        <%
+                            goods.forEach(function (item, index) {
+                         %>       <li>
+                                <a href="/users/api/detail?detailId=<%=item.detailId%>">
+                                        <div class="item-left">
+                                        <img src="<%=item.imgUrl%>" alt="">
+                                        </div>
+                                        <div class="item-middle">
+                                        <h3><%=item.CName%></h3>
+                                <p><%=item.description%></p>
+                                <p> <em><%=item.price%>/小时</em> &nbsp;&nbsp;&nbsp;<i class="huaxian"><%=item.oldPrice%></i>元</p>
+                                <p><span></span>云家政已售<%=item.hasSelled%>&nbsp;&nbsp;&nbsp;<%=item.favorable%></p>
                                 </div>
-                            </div>
-                            </a>
-                        </li>
+                                <div class="item-right">
+                                        <div >
+                                        <p>最快上门</p>
+                                        <p>2小时</p>
+                                </div>
+                                </div>
+                                </a>
+                                </li>
+                            <%
+                            })
+                        %>
 
-                        {{/each}}
-                    </script>
+
+
+
 
                 </ul>
             </div>
@@ -77,56 +81,56 @@
                 <ul class="mores-content-right-list">
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
                     </li>
                     <li>
                     <div>
-                        <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                     </div>
                     <p>云家政</p>
                     <p>已成功接单29019 好评86%</p>
                 </li>
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
                     </li>
                     <li>
                         <div>
-                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
                         </div>
                         <p>云家政</p>
                         <p>已成功接单29019 好评86%</p>
@@ -187,12 +191,6 @@
         }//W3C
         window.onmousewheel=document.onmousewheel=scrollFunc;
         /*请求数据*/
-        $(function () {
-            $.get('/users/api/moreser', function (data) {
-                var html = template('list', data[0])
-                $('.mores-content-left-list').append(html)
-            })
-        })
     </script>
     </body>
 </html>

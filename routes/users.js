@@ -7,36 +7,26 @@ router.get('/api/firstPage', (req, res) =>{
   res.send(data)
 
 });
-let id = null
-router.get('/api/moreser', (req, res, next) => {
-  id = req.query.id
-  if (id){
-    res.render('moreservice.ejs')
-  }else {
-    next()
-  }
-}, (req, res) => {
-  const service = data.service.filter((item, index) => {
-    return item.serviceId === id
+let service = null
+router.get('/api/moreser', function (req, res) {
+  let id = req.query.id
+  service = data.service.find((item, index) => {
+    return item.serviceId == id
   })
-  res.send(service)
+  console.log(service)
+
+  res.render('moreservice.ejs', service)
+
+
+
 })
-let detailId = null
-router.get('/api/detail', (req, res, next) => {
-  detailId = req.query.detailId
-  if (detailId){
-    res.render('detail.ejs')
-  }else {
-    next()
-  }
-}, (req, res) => {
-  const service = data.service.filter((item, index) => {
-    return item.serviceId === id
+
+router.get('/api/detail', (req, res) => {
+  let detailId = req.query.detailId
+  const good = service.goods.find((item, index) => {
+    return item.detailId == detailId
   })
-  const goods = service[0].filter((item, index) => {
-    return item.detailId === detailId
-  })
-  res.send(goods)
+  res.render('detail.ejs', good)
 })
 
 module.exports = router

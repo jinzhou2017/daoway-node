@@ -902,6 +902,14 @@
                 $(window).scrollTop($(name).offset().top-280);
             })
         })
+        /*获取城市*/
+        $(function () {
+          $('.classify_city').on('click', function () {
+            let city = $(this).text()
+            $('#selectCity').text(city)
+            $.get('/api/selectCity',{city})
+          })
+        })
     </script>
     </body>
 </html>

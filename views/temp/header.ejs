@@ -4,14 +4,14 @@
         <div class="top-wrap">
             <div class="nav-middle">
                 <span class="nav-middle-image"></span>
-                <a href="/toggolcity">北京 <span>切换城市</span></a>
+                <a href="/toggolcity" ><span id="selectCity"><%=city%></span> <span id="qiehuan">切换城市</span></a>
             </div>
             <ul class="nav-list">
-                <li class="nav-list-items "><a class="active" href="/">首页</a></li>
-                <li class="nav-list-items"><a href="/loadApp">下载APP</a></li>
-                <li class="nav-list-items"><a href="/servicer">服务商</a></li>
-                <li class="nav-list-items"><a href="/shops">商家入驻</a></li>
-                <li class="nav-list-items"><a href="/aboutus">关于我们</a></li>
+                <li class="nav-list-items"><a class="<%=fist?fist:''%>" href="/">首页</a></li>
+                <li class="nav-list-items"><a class="<%=load?load:''%>" href="/loadApp">下载APP</a></li>
+                <li class="nav-list-items"><a class="<%=serv?serv:''%>" href="/servicer">服务商</a></li>
+                <li class="nav-list-items"><a class="<%=shop?shop:''%>" href="/shops">商家入驻</a></li>
+                <li class="nav-list-items"><a class="<%=about?about:''%>" href="/aboutus">关于我们</a></li>
                 <li class="nav-list-items"><a href="/login">商家登录</a></li>
             </ul>
         </div>
