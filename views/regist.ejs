@@ -75,18 +75,33 @@
   }//W3C
   window.onmousewheel=document.onmousewheel=scrollFunc;
   //    短信验证
-  $('.getmima').on('click', function (event) {
-    event.stopPropagation();
-    let number = $('#phone').val()
-    if (!number) {
-      $('#tishimsg').text("请输入手机号！！")
-      return
-    }
-    console.log(number)
-    $.get('/api/msgCheck',{number:number},function (data) {
-      console.log(data)
-    })
-  })
+ $(function () {
+   let num = 60
+   let isClick = true
+   $('.getmima').on('click', function (event) {
+     event.stopPropagation();
+     let number = $('#phone').val()
+     if (!number) {
+       $('#tishimsg').text("请输入手机号！！")
+       return
+     }
+     if (!isClick){
+       return
+     }
+      let time = setInterval(function () {
+        $('.getmima').text(num + 's')
+        num--
+        if (num === 0) {
+          $('.getmima').text(' 获取验证码')
+          clearInterval(time)
+          isClick = true
+        }
+      },1000)
+     $.get('/api/msgCheck',{number:number},function (data) {
+       isClick = false
+     })
+   })
+ })
   /*图片验证*/
   var verifyCode = new GVerify({
     id:"v_container",
