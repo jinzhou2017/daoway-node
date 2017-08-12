@@ -1,5 +1,6 @@
 const express = require('../node_modules/express')
 const router = express.Router()
+const data = require('../data.json')
 /*引入短信验证*/
 const sms_util = require('../tools/sms_util')
 /*引入数据库*/
@@ -42,11 +43,41 @@ router.get('/aboutus', (req, res) => {
 })
 /*toggolcity*/
 router.get('/toggolcity', (req, res) => {
-  res.render('toggolcity.ejs',{fist:'',load:'active',serv:'',shop:'',about:'', city:city})
+  res.render('toggolcity.ejs',{fist:'active',load:'',serv:'',shop:'',about:'', city:city})
 })
 /*忘记密码*/
 router.get('/forgetpsw', (req, res) => {
   res.render('forgetpsw.ejs', {msg:''})
+})
+/*更多服务*/
+let service = null
+router.get('/users/api/moreser', function (req, res) {
+  let id = req.query.id
+  service = data.service.find((item, index) => {
+    return item.serviceId == id
+  })
+  console.log(service)
+
+  res.render('moreservice.ejs', {fist:'',load:'',serv:'',shop:'',about:'active', city:city, service})
+
+
+
+})
+/*详情*/
+router.get('/users/api/detail', (req, res) => {
+  let detailId = req.query.detailId
+  const good = service.goods.find((item, index) => {
+    return item.detailId == detailId
+  })
+  res.render('detail.ejs', {fist:'',load:'',serv:'',shop:'',about:'active', city:city, good})
+})
+/*服务商详情*/
+router.get('/api/serdetail', (req, res) => {
+  let serdetailId = req.query.serdetailId
+  let service = data.service.find((item, index) => {
+    return item.serviceId == serdetailId
+  })
+  res.render('serdetail.ejs',{fist:'',load:'',serv:'',shop:'',about:'active', city:city, service} )
 })
 /*处理验证码请求*/
 let code = null

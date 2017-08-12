@@ -25,6 +25,7 @@
 
                     <script id="list" type="text/html">
                         {{each service item i}}
+                        <a href="/api/serdetail?serdetailId={{item.serviceId}}">
                         <li class="servicer-content-item">
                             <img src="{{item.imgUrl}}" alt="">
                             <h2>{{item.serviceName}}</h2>
@@ -33,6 +34,7 @@
                                 <span>好评{{item.score}}%</span>
                             </div>
                         </li>
+                        </a>
                         {{/each}}
                     </script>
 

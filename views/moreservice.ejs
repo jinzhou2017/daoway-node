@@ -46,7 +46,7 @@
                 </div>
                 <ul class="mores-content-left-list">
                         <%
-                            goods.forEach(function (item, index) {
+                        service.goods.forEach(function (item, index) {
                          %>       <li>
                                 <a href="/users/api/detail?detailId=<%=item.detailId%>">
                                         <div class="item-left">
@@ -79,64 +79,21 @@
             <div class="mores-content-right">
                 <h2>服务商</h2>
                 <ul class="mores-content-right-list">
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
-                    <li>
-                    <div>
-                        <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                    </div>
-                    <p>云家政</p>
-                    <p>已成功接单29019 好评86%</p>
-                </li>
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="/img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
-                        </div>
-                        <p>云家政</p>
-                        <p>已成功接单29019 好评86%</p>
-                    </li>
+
+
 
                 </ul>
+                <script id="list" type="text/html">
+                    {{each service item i}}
+                    <li>
+                        <div>
+                            <img src="{{item.imgUrl}}" alt="">
+                        </div>
+                        <p>{{item.serviceName}}</p>
+                        <p>已成功接单{{item.time}}好评{{item.score}}%</p>
+                    </li>
+                    {{/each}}
+                </script>
             </div>
             <div class="mores-foot">
                 <div class="box">
@@ -191,6 +148,12 @@
         }//W3C
         window.onmousewheel=document.onmousewheel=scrollFunc;
         /*请求数据*/
+        $(function () {
+          $.get("/users/api/firstPage ", function(data){
+            var html = template('list', data)
+            $('.mores-content-right-list').append(html)
+          });
+        })
     </script>
     </body>
 </html>
