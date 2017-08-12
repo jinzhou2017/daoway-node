@@ -1,0 +1,1532 @@
+{
+  "firstPage": [
+    {
+      "title": "家庭保洁",
+      "serviceId":"1",
+      "description": "小时工/开荒保洁/擦玻璃/深度保洁/家居养护/杀虫除螨",
+      "content":[
+        {
+          "detailId":"11",
+          "imgUrl": "http://img.daoway.cn/img/2017/03/22/41491c6c-afd7-449e-9037-e2bf6d72d430_thumb.jpg",
+          "serviceName": "室内保洁",
+          "description": "服务内容： 1.室内保洁服务，2小时起订，阿姨携带清洁装备，...",
+          "price": "30",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"12",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/13/8c3823a3-922c-4d4e-a239-40ccbfd3fc46_thumb.jpg",
+          "serviceName": "4小时室内保洁（可擦玻璃）",
+          "description": "服务内容： 1.保洁或擦玻璃，自由搭配但不同时进行，共4小时...",
+          "price": "159",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"13",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/08/e74da0d8-99a2-442b-96a9-4c100fc779df_thumb.jpg",
+          "serviceName": "擦玻璃",
+          "description": "服务内容： 1.保洁+擦玻璃，服务商携带清洁装备，包含：清洁...",
+          "price": "309",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"14",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/22/41491c6c-afd7-449e-9037-e2bf6d72d430_thumb.jpg",
+          "serviceName": "床品除螨套餐",
+          "description": "服务内容： 1.室内保洁服务，2小时起订，阿姨携带清洁装备，....",
+          "price": "208",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"15",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/13/8c3823a3-922c-4d4e-a239-40ccbfd3fc46_thumb.jpg",
+          "serviceName": "4小时室内保洁（可擦玻璃）",
+          "description": "服务内容： 1.保洁或擦玻璃，自由搭配但不同时进行，共4小时...",
+          "price": "598",
+          "priceDesc": "次"
+        }
+      ]
+    },
+    {
+      "title": "上门维修",
+      "serviceId":"2",
+      "description": "手机维修/家电维修/电脑维修/家庭维修/管道疏通/开锁换锁/安装打孔/空气净化",
+      "content":[
+        {
+          "detailId":"21",
+          "imgUrl": "http://img.daoway.cn/img/2016/09/28/6437e1ea-9159-46c2-882d-4936f5199887_thumb.jpg",
+          "serviceName": "墙面翻新上门测量",
+          "description": "故障描述：1.墙面开裂、发霉、老旧，包工包料，不用您动手，...",
+          "price": "50",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"22",
+          "imgUrl": "http://img.daoway.cn/img/2017/04/18/7c9edf23-744d-4231-ac84-40571fef1afb_thumb.jpg",
+          "serviceName": "家庭装修(上门量房、设计、报价)",
+          "description": "预约流程：1.到位用户预约齐家网装修服务，可享受到位专享1...",
+          "price": "0",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"23",
+          "imgUrl": "http://img.daoway.cn/img/2017/03/29/76b1e3e3-9b66-482b-9e2a-904ac5c8b8c7_thumb.jpg",
+          "serviceName": "电视上门维修",
+          "description": "服务内容：1.总费用=一口价维修费+特殊配件费（若没有更换...",
+          "price": "450",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"34",
+          "imgUrl": "http://img.daoway.cn/img/2016/09/28/6437e1ea-9159-46c2-882d-4936f5199887_thumb.jpg",
+          "serviceName": "墙面粉刷",
+          "description": "服务内容：1、.墙面刷新总费用由【涂刷人工费+油漆+辅材+...",
+          "price": "50",
+          "priceDesc": "平米"
+        },
+        {
+          "detailId":"35",
+          "imgUrl": "http://img.daoway.cn/img/2016/09/28/6437e1ea-9159-46c2-882d-4936f5199887_thumb.jpg",
+          "serviceName": "墙面满批型（毛坯房）刷新",
+          "description": "服务内容：1.墙面满批型（毛坯房）刷新80元/㎡起，面积3...",
+          "price": "80",
+          "priceDesc": "平米"
+        }
+          ]
+    },
+    {
+      "title": "家电清洗",
+      "serviceId":"3",
+      "description": "空调清洗/油烟机清洗/洗衣机清洗/冰箱清洗/燃气灶清洗/热水器清洗/微波炉清洗/饮水机清洗",
+      "content": [
+        {
+          "detailId":"31",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/26/d90b3c02-2a4e-4b18-b82b-9cfc7d43947f_thumb.jpg",
+          "serviceName": "挂壁式空调清洗",
+          "description": "我们是TCL集团旗下家电服务品牌服务流程：1.验机2....",
+          "price": "68",
+          "priceDesc": "台"
+        },
+        {
+          "detailId":"32",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/26/12a208a1-cf03-428b-bc79-9a9472a28007_thumb.jpg",
+          "serviceName": "柜式空调清洗",
+          "description": "我们是TCL集团旗下家电服务品牌服务流程：1.验机2....",
+          "price": "98",
+          "priceDesc": "台"
+        },
+        {
+          "detailId":"33",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/26/9bdce423-602b-4fc9-b82c-c5b771746a63_thumb.jpg",
+          "serviceName": "对开门冰箱清洗",
+          "description": "我们是TCL集团旗下家电服务品牌服务流程：1.验机2....",
+          "price": "128",
+          "priceDesc": "台"
+        },
+        {
+          "detailId":"34",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/26/123e07e5-d72e-465e-a595-11acc104c85e_thumb.jpg",
+          "serviceName": "波轮洗衣机清洗",
+          "description": "我们是TCL集团旗下家电服务品牌服务流程：1.验机2....",
+          "price": "68",
+          "priceDesc": "台"
+        },
+        {
+          "detailId":"35",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/26/4b9e9f37-7d3c-460c-8053-b2d63307247c_thumb.jpg",
+          "serviceName": "滚筒洗衣机清洗",
+          "description": "我们是TCL集团旗下家电服务品牌服务流程：1.验机2....",
+          "price": "78",
+          "priceDesc": "台"
+        }
+      ]
+
+    },
+    {
+      "title": "衣物洗护",
+      "serviceId":"4",
+      "description": "洗衣/洗鞋修鞋/家纺清洗/箱包洗护/定制改衣",
+      "content": [
+        {
+          "detailId":"41",
+          "imgUrl": "http://img.daoway.cn/img/2016/12/19/9368d441-24b0-4897-8651-d28275888d7e_thumb.jpg",
+          "serviceName": "2双不限鞋类随心洗",
+          "description": "服务内容：1次两双鞋子不限种类精洗，不包含修补、翻新服务，...",
+          "price": "49",
+          "priceDesc": "2双"
+        },
+        {
+          "detailId":"42",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/07/27/9847edb5-7ab0-4979-af88-850407b9174d_thumb.jpg",
+          "serviceName": "奢品钱包清洁补色保养焕新",
+          "description": "服务内容：1.除菌除尘+深层清洁+划痕修复+磨损补色2....",
+          "price": "199",
+          "priceDesc": "个"
+        },
+        {
+          "detailId":"43",
+          "imgUrl": "http://img.daoway.cn/img/2016/12/19/9368d441-24b0-4897-8651-d28275888d7e_thumb.jpg",
+          "serviceName": "半年随心卡(10双鞋)",
+          "description": "服务内容：可用5次，每次2双鞋子，不限种类精洗，不包含修补...",
+          "price": "219",
+          "priceDesc": "个"
+        },
+        {
+          "detailId":"44",
+          "imgUrl": "http://img.daoway.cn/img/2016/12/19/9368d441-24b0-4897-8651-d28275888d7e_thumb.jpg",
+          "serviceName": "全年随心卡(24双)",
+          "description": "服务内容：可用12次，每次2双鞋子，不限种类精洗，不包含修补...",
+          "price": "469",
+          "priceDesc": "个"
+        },
+        {
+          "detailId":"45",
+          "imgUrl": "http://img.daoway.cn/img/2016/12/19/915d51ad-a07f-476a-aec4-fcfdb88a33f3_thumb.jpg",
+          "serviceName": "4双不限鞋类无忧洗",
+          "description": "服务内容：1次四双鞋子不限种类精洗，不包含修补、翻新服务，...",
+          "price": "78",
+          "priceDesc": "4双"
+        }
+      ]
+    },
+    {
+      "title": "美容美妆",
+      "serviceId":"5",
+      "description": "化妆/美甲/美睫/美容/美发/半永久",
+      "content": [
+        {
+          "detailId":"51",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/07/31/b16ff7c0-c7fc-4cb6-851c-1f761adf12f7_thumb.jpg",
+          "serviceName": "韩式新娘跟妆（半天）",
+          "description": "韩式新娘妆讲究优雅高贵，妆容精雕细琢，服帖持久，真正做到让你...",
+          "price": "688",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"52",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/07/31/b16ff7c0-c7fc-4cb6-851c-1f761adf12f7_thumb.jpg",
+          "serviceName": "韩式新娘妆（单妆）",
+          "description": "韩式新娘妆讲究优雅高贵，妆容精雕细琢，服帖持久，真正做到让你...",
+          "price": "368",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"53",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/07/31/5166943b-8041-4a26-92cd-df2375eb9ffe_thumb.jpg",
+          "serviceName": "中式喜庆新娘妆（单妆）",
+          "description": "中式新娘妆讲究高贵、喜庆，展现东方女性独有的雍容华贵之美。...",
+          "price": "468",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"54",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/07/31/176edcd0-c262-4f23-8d9b-9ce8cbc391a6_thumb.jpg",
+          "serviceName": "高定Party妆",
+          "description": "Party场合对于女人的精致度要求极高，优点和缺点都会成倍放...",
+          "price": "338",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"55",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/07/31/176edcd0-c262-4f23-8d9b-9ce8cbc391a6_thumb.jpg",
+          "serviceName": "特效妆",
+          "description": "根据个人特色与cos的角色需求，高度还原角色形象及特点，给你...",
+          "price": "588",
+          "priceDesc": "次"
+        }
+
+      ]
+    },
+    {
+      "title": "鲜花绿植",
+      "serviceId":"6",
+      "description": "包月鲜花/礼品用花/绿植",
+      "content": [
+        {
+          "detailId":"61",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/07/08f66981-c8de-4b01-a8f0-4dc6b00333f2_thumb.jpg",
+          "serviceName": "智能花盆套餐",
+          "description": "套餐内容：智能花盆1个+适配盆栽2盆配送方式：顺丰包邮，每...",
+          "price": "299",
+          "priceDesc": "月"
+        },
+        {
+          "detailId":"62",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/07/a7539778-3cb0-4ae1-af80-9ddcbae19080_thumb.jpg",
+          "serviceName": "3个月包月套餐",
+          "description": "套餐内容：智能花盆+活株花卉x2盆配送方式：顺丰包邮，每月...",
+          "price": "399",
+          "priceDesc": "3月"
+        },
+        {
+          "detailId":"63",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/09/6abf8608-29b7-4dd1-9e70-9e1721cc2fa3_thumb.jpg",
+          "serviceName": "6个月包月套餐",
+          "description": "套餐内容：智能花盆+活株花卉x2盆配送方式：顺丰包邮，每月...",
+          "price": "498",
+          "priceDesc": "6月"
+        },
+        {
+          "detailId":"64",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/15/fc5ed4cd-a182-4278-9f81-dcff99962a25_thumb.jpg",
+          "serviceName": "活株成品芦荟",
+          "description": "活株成品芦荟，推荐配智能花盆使用配送方式：快递包邮配送时...",
+          "price": "34",
+          "priceDesc": "盆"
+        },
+        {
+          "detailId":"65",
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/15/3d79ab9c-188c-48c5-bb0d-91c7534538a5_thumb.jpg",
+          "serviceName": "活株成品瓶子草",
+          "description": "活株成品瓶子草，推荐配智能花盆使用配送方式：快递包邮配送...",
+          "price": "40",
+          "priceDesc": "盆"
+        }
+      ]
+    },
+    {
+      "title": "上门医护",
+      "serviceId":"10",
+      "description": "护士上门/挂号陪诊/康复陪护/私人医生",
+      "content": [
+        {
+          "detailId":"1",
+          "imgUrl": "http://img.daoway.cn/img/2017/01/13/327ef6f8-f102-4e26-8a0b-6fd57baed1ae_thumb.jpg",
+          "serviceName": "上门打针 肌肉/皮下注射",
+          "description": "执业护士上门打针服务（119元/单次服务），预约时间请选择首...",
+          "price": "119",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"2",
+          "imgUrl": "http://img.daoway.cn/img/2017/01/13/327ef6f8-f102-4e26-8a0b-6fd57baed1ae_thumb.jpg",
+          "serviceName": "上门打针（5次）肌肉/皮下注射",
+          "description": "执业护士上门打针服务（535元/5次服务），预约时间请选择首...",
+          "price": "535",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"3",
+          "imgUrl": "http://img.daoway.cn/img/2017/01/13/327ef6f8-f102-4e26-8a0b-6fd57baed1ae_thumb.jpg",
+          "serviceName": "上门打针10次 肌肉/皮下注射",
+          "description": "执业护士上门打针服务（900元/10次服务），预约时间请选择...",
+          "price": "900",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"4",
+          "imgUrl": "http://img.daoway.cn/img/2017/01/13/9cb9b8ee-155b-48d6-9122-610e98897922_thumb.jpg",
+          "serviceName": "护士上门输液（普通）",
+          "description": "执业护士上门输液服务（149元/单次），预约时间请选择首次为...",
+          "price": "149",
+          "priceDesc": "次"
+        },
+        {
+          "detailId":"5",
+          "imgUrl": "http://img.daoway.cn/img/2017/01/13/9cb9b8ee-155b-48d6-9122-610e98897922_thumb.jpg",
+          "serviceName": "护士上门输液（普通5次）",
+          "description": "执业护士上门输液服务（665元/5次），预约时间请选择首次为...",
+          "price": "665",
+          "priceDesc": "次"
+        }
+      ]
+    },
+    {
+      "title": "养车用车",
+      "serviceId":"11",
+      "description": "上门养车/上门洗车/汽车陪练/机场泊车/验车",
+      "content": [
+        {
+          "imgUrl": "http://img.daoway.cn/img/2017/03/06/5480c9b0-6d11-4020-a643-f3f683f9cb31_thumb.jpg",
+          "serviceName": "北京首都机场室外停车+接送",
+          "description": "停车场位于北京市顺义区李桥镇后桥村新村北街，距离首都机场T3...",
+          "price": "30",
+          "priceDesc": "天"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/2017/03/27/5789bc8d-6a03-4eec-91f6-2a1417a468cb_thumb.jpg",
+          "serviceName": "武汉天河机场室内停车+接送",
+          "description": "停车场位于中国湖北省武汉市黄陂区南四路，距离航站楼实际距离1...",
+          "price": "35",
+          "priceDesc": "天"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/2017/03/30/b2cacc51-ce0c-47eb-a0d2-9968baa61aae_thumb.jpg",
+          "serviceName": "成都双流机场室内停车+接送",
+          "description": "停车场位于成都市双流县西航港大道中二段260号，距离双流国际...",
+          "price": "25",
+          "priceDesc": "天"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/2017/03/30/0a08a07d-d663-4d71-8692-7cc92f45be1b_thumb.jpg",
+          "serviceName": "福州长乐机场室内停车+接送",
+          "description": "停车场位于长乐市漳港镇福州机场口岸园区，距离航站楼1.8公里...",
+          "price": "25",
+          "priceDesc": "天"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/2017/03/30/8f47b64f-f034-4136-a493-ff05d8f608ca_thumb.jpg",
+          "serviceName": "杭州萧山机场室内停车+接送",
+          "description": "停车场位于杭州市萧山区国庆东直路，距离航站楼5公里，10分钟...",
+          "price": "45",
+          "priceDesc": "天"
+        }
+      ]
+    },
+    {
+      "title": "更多",
+      "serviceId":"13",
+      "description": "家教/跑腿/送水/外卖/回收/宠物/钢琴/摄影/法律/健身/上门配镜",
+      "content": [
+        {
+          "imgUrl": "http://img.daoway.cn/img/price/2017/06/05/e926a409-4f45-4e5e-8966-9b4eb0ea2a9b_thumb.jpg",
+          "serviceName": "手机上门回收",
+          "description": "服务内容：1.轻松估价，问卷式估价流程，操作简单又便捷，全...",
+          "price": "0",
+          "priceDesc": "次"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/12/648de8f0-14e5-4fb2-8797-b9ee1662e65b_thumb.jpg",
+          "serviceName": "单次电话咨询",
+          "description": "服务内容：单次的电话咨询，专属律师，一打就通，立即获取法律...",
+          "price": "20",
+          "priceDesc": "次"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/10/ec505980-8d43-4095-b61d-e5626a4c6eb4_thumb.jpg",
+          "serviceName": "电话咨询",
+          "description": "优选专家律师与您电话沟通，为您深度分析法律问题，提供权威建议...",
+          "price": "99",
+          "priceDesc": "次"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/12/dc2fb5a2-5be6-4b25-899a-58fc3def4ccf_thumb.jpg",
+          "serviceName": "电话咨询",
+          "description": "服务内容：12小时，不限次数，不限时长，比传统律师更实惠，...",
+          "price": "35",
+          "priceDesc": "次"
+        },
+        {
+          "imgUrl": "http://img.daoway.cn/img/price/2017/05/12/412fd51d-ac59-4f38-8cb6-bdc49f174deb_thumb.jpg",
+          "serviceName": "律师函",
+          "description": "服务内容：简单经济，不打官司解决纠纷，通过向对方提出严正警...",
+          "price": "300",
+          "priceDesc": "次"
+        }
+      ]
+    }
+  ],
+  "service":[
+    {
+      "serviceId":"1",
+      "imgUrl": "http://img.daoway.cn/img/2016/08/24/94117c68-1048-473b-8370-dc40ab66c3e0_thumb.jpg",
+      "serviceName": "三鼎家政",
+      "time": "15605",
+      "rate":"93",
+      "score": "85",
+      "goods":[
+        {
+          "detailId":"11",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/22/41491c6c-afd7-449e-9037-e2bf6d72d430_thumb.jpg",
+          "CName":"室内保洁",
+          "description":"服务内容： 1.室内保洁服务，2小时起订，阿姨携带清洁装备，...",
+          "price":"30",
+          "oldPrice":"50元/小时",
+          "hasSelled":"32176",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"12",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/13/8c3823a3-922c-4d4e-a239-40ccbfd3fc46_thumb.jpg",
+          "CName":"4小时室内保洁（可擦玻璃）",
+          "description":"服务内容： 1.保洁或擦玻璃，自由搭配但不同时进行，共4小时...",
+          "price":"159元/4小时",
+          "oldPrice":"300",
+          "hasSelled":"1896",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"13",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/08/e74da0d8-99a2-442b-96a9-4c100fc779df_thumb.jpg",
+          "CName":"4h保洁+4h擦玻璃",
+          "description":"服务内容： 1.保洁+擦玻璃，服务商携带清洁装备，包含：清洁...",
+          "price":"309元/次",
+          "oldPrice":"380",
+          "hasSelled":"67",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"14",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/22/41491c6c-afd7-449e-9037-e2bf6d72d430_thumb.jpg",
+          "CName":"室内保洁",
+          "description":"服务内容： 1.室内保洁服务，2小时起订，阿姨携带清洁装备，...",
+          "price":"30",
+          "oldPrice":"50元/小时",
+          "hasSelled":"32176",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"15",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/13/8c3823a3-922c-4d4e-a239-40ccbfd3fc46_thumb.jpg",
+          "CName":"4小时室内保洁（可擦玻璃）",
+          "description":"服务内容： 1.保洁或擦玻璃，自由搭配但不同时进行，共4小时...",
+          "price":"159元/4小时",
+          "oldPrice":"300",
+          "hasSelled":"1896",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"16",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/08/e74da0d8-99a2-442b-96a9-4c100fc779df_thumb.jpg",
+          "CName":"4h保洁+4h擦玻璃",
+          "description":"服务内容： 1.保洁+擦玻璃，服务商携带清洁装备，包含：清洁...",
+          "price":"309元/次",
+          "oldPrice":"380",
+          "hasSelled":"67",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"17",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/22/41491c6c-afd7-449e-9037-e2bf6d72d430_thumb.jpg",
+          "CName":"室内保洁",
+          "description":"服务内容： 1.室内保洁服务，2小时起订，阿姨携带清洁装备，...",
+          "price":"30",
+          "oldPrice":"50元/小时",
+          "hasSelled":"32176",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"18",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/13/8c3823a3-922c-4d4e-a239-40ccbfd3fc46_thumb.jpg",
+          "CName":"4小时室内保洁（可擦玻璃）",
+          "description":"服务内容： 1.保洁或擦玻璃，自由搭配但不同时进行，共4小时...",
+          "price":"159元/4小时",
+          "oldPrice":"300",
+          "hasSelled":"1896",
+          "favorable":"首单立减10元"
+        },
+        {
+          "detailId":"19",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/08/e74da0d8-99a2-442b-96a9-4c100fc779df_thumb.jpg",
+          "CName":"4h保洁+4h擦玻璃",
+          "description":"服务内容： 1.保洁+擦玻璃，服务商携带清洁装备，包含：清洁...",
+          "price":"309元/次",
+          "oldPrice":"380",
+          "hasSelled":"67",
+          "favorable":"首单立减10元"
+        }
+      ]
+    },
+    {
+      "serviceId":"2",
+      "imgUrl": "http://img.daoway.cn/img/2017/01/20/c3a2490e-04fc-43de-9a05-8a62dce47f57_thumb.jpg",
+      "serviceName": "宜生到家",
+      "time": "13069",
+      "rate":"88",
+      "score": "98",
+      "goods":[
+        {
+          "detailId":"21",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/1a3e8207-ce4b-40f2-862f-16552a176822_thumb.jpg",
+          "CName":"全身推拿",
+          "description":"时长：60分钟 服务姿势：卧姿  适用介绍： 适用机关工作、...",
+          "price":"128元/次",
+          "oldPrice":"158",
+          "hasSelled":"59",
+          "favorable":""
+        },
+        {
+          "detailId":"22",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/e5442590-9ead-4434-98d7-801f2dd549b8_thumb.jpg",
+          "CName":"肩颈腰调理",
+          "description":"时长：60分钟 服务姿势：卧姿  适用介绍： 适用于因寒湿、...",
+          "price":"128元/次",
+          "oldPrice":"158",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"23",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/17/fc48582a-4672-47c3-856d-9c97c75a6347_thumb.jpg",
+          "CName":"中医联合调理",
+          "description":"服务时长：90分钟（60分钟中医推拿+30分钟加钟项目，如：...",
+          "price":"206元/次",
+          "oldPrice":"258",
+          "hasSelled":"301",
+          "favorable":""
+        },
+        {
+          "detailId":"24",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/1a3e8207-ce4b-40f2-862f-16552a176822_thumb.jpg",
+          "CName":"全身推拿",
+          "description":"时长：60分钟 服务姿势：卧姿  适用介绍： 适用机关工作、...",
+          "price":"128元/次",
+          "oldPrice":"158",
+          "hasSelled":"59",
+          "favorable":""
+        },
+        {
+          "detailId":"25",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/e5442590-9ead-4434-98d7-801f2dd549b8_thumb.jpg",
+          "CName":"肩颈腰调理",
+          "description":"时长：60分钟 服务姿势：卧姿  适用介绍： 适用于因寒湿、...",
+          "price":"128元/次",
+          "oldPrice":"158",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"26",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/17/fc48582a-4672-47c3-856d-9c97c75a6347_thumb.jpg",
+          "CName":"中医联合调理",
+          "description":"服务时长：90分钟（60分钟中医推拿+30分钟加钟项目，如：...",
+          "price":"206元/次",
+          "oldPrice":"258",
+          "hasSelled":"301",
+          "favorable":""
+        },
+        {
+          "detailId":"27",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/1a3e8207-ce4b-40f2-862f-16552a176822_thumb.jpg",
+          "CName":"全身推拿",
+          "description":"时长：60分钟 服务姿势：卧姿  适用介绍： 适用机关工作、...",
+          "price":"128元/次",
+          "oldPrice":"158",
+          "hasSelled":"59",
+          "favorable":""
+        },
+        {
+          "detailId":"28",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/e5442590-9ead-4434-98d7-801f2dd549b8_thumb.jpg",
+          "CName":"肩颈腰调理",
+          "description":"时长：60分钟 服务姿势：卧姿  适用介绍： 适用于因寒湿、...",
+          "price":"128元/次",
+          "oldPrice":"158",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"29",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/17/fc48582a-4672-47c3-856d-9c97c75a6347_thumb.jpg",
+          "CName":"中医联合调理",
+          "description":"服务时长：90分钟（60分钟中医推拿+30分钟加钟项目，如：...",
+          "price":"206元/次",
+          "oldPrice":"258",
+          "hasSelled":"301",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"3",
+      "imgUrl": "http://img.daoway.cn/img/2016/11/11/450b3aac-c628-4e2f-bed0-331b47136f5b_thumb.jpg",
+      "serviceName": "蓝犀牛",
+      "time": "2205",
+      "rate":"96",
+      "score": "98",
+      "goods":[
+        {
+          "detailId":"31",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/23/a962b36c-ece5-472e-bf05-eafbb658e37e_thumb.jpg",
+          "CName":"面包车搬家",
+          "description":"服务内容： 1.面包车辆容积：12个24寸行李箱大小，可装载...",
+          "price":"96元/次",
+          "oldPrice":"",
+          "hasSelled":"1153",
+          "favorable":""
+        },
+        {
+          "detailId":"32",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/23/f6386cca-139f-4a34-899c-c8aecf370697_thumb.jpg",
+          "CName":"金杯车搬家",
+          "description":"服务内容： 1.金杯车辆容积：28个24寸行李箱大小，可装载...",
+          "price":"166元/次",
+          "oldPrice":"",
+          "hasSelled":"673",
+          "favorable":""
+        },
+        {
+          "detailId":"33",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/06/6b08e3b8-8bbf-454b-aed9-cd59c00c2d7f_thumb.jpg",
+          "CName":"厢货搬家",
+          "description":"服务内容： 1.厢货车辆容积：4.2米*1.9米*1.9米=...",
+          "price":"4498元/次",
+          "oldPrice":"",
+          "hasSelled":"2",
+          "favorable":""
+        },
+        {
+          "detailId":"34",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/23/a962b36c-ece5-472e-bf05-eafbb658e37e_thumb.jpg",
+          "CName":"面包车搬家",
+          "description":"服务内容： 1.面包车辆容积：12个24寸行李箱大小，可装载...",
+          "price":"96元/次",
+          "oldPrice":"",
+          "hasSelled":"1153",
+          "favorable":""
+        },
+        {
+          "detailId":"35",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/23/f6386cca-139f-4a34-899c-c8aecf370697_thumb.jpg",
+          "CName":"金杯车搬家",
+          "description":"服务内容： 1.金杯车辆容积：28个24寸行李箱大小，可装载...",
+          "price":"166元/次",
+          "oldPrice":"",
+          "hasSelled":"673",
+          "favorable":""
+        },
+        {
+          "detailId":"36",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/06/6b08e3b8-8bbf-454b-aed9-cd59c00c2d7f_thumb.jpg",
+          "CName":"厢货搬家",
+          "description":"服务内容： 1.厢货车辆容积：4.2米*1.9米*1.9米=...",
+          "price":"4498元/次",
+          "oldPrice":"",
+          "hasSelled":"2",
+          "favorable":""
+        },
+        {
+          "detailId":"37",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/23/a962b36c-ece5-472e-bf05-eafbb658e37e_thumb.jpg",
+          "CName":"面包车搬家",
+          "description":"服务内容： 1.面包车辆容积：12个24寸行李箱大小，可装载...",
+          "price":"96元/次",
+          "oldPrice":"",
+          "hasSelled":"1153",
+          "favorable":""
+        },
+        {
+          "detailId":"38",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/23/f6386cca-139f-4a34-899c-c8aecf370697_thumb.jpg",
+          "CName":"金杯车搬家",
+          "description":"服务内容： 1.金杯车辆容积：28个24寸行李箱大小，可装载...",
+          "price":"166元/次",
+          "oldPrice":"",
+          "hasSelled":"673",
+          "favorable":""
+        },
+        {
+          "detailId":"39",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/06/6b08e3b8-8bbf-454b-aed9-cd59c00c2d7f_thumb.jpg",
+          "CName":"厢货搬家",
+          "description":"服务内容： 1.厢货车辆容积：4.2米*1.9米*1.9米=...",
+          "price":"4498元/次",
+          "oldPrice":"",
+          "hasSelled":"2",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"4",
+      "imgUrl": "http://img.daoway.cn/img/2016/12/28/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg",
+      "serviceName": "云家政",
+      "time": "29092",
+      "rate":"95",
+      "score": "86",
+      "goods":[
+        {
+          "detailId":"41",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/28/7175ec52-16ab-4c8c-a12a-2abf7c05451b_thumb.jpg",
+          "CName":"家庭保洁",
+          "description":"服务内容： 家庭保洁服务，2小时起订。 （云家政暂时不提供带...",
+          "price":"30元/小时",
+          "oldPrice":"50",
+          "hasSelled":"1034",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"5",
+      "imgUrl": "http://img.daoway.cn/img/2015/10/20/7ae90a81-e216-42bd-baf2-4500d870cc78_thumb.jpg",
+      "serviceName": "云足疗",
+      "time": "862",
+      "rate":"96",
+      "score": "95",
+      "goods":[
+        {
+          "detailId":"51",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/28/7175ec52-16ab-4c8c-a12a-2abf7c05451b_thumb.jpg",
+          "CName":"家庭保洁",
+          "description":"服务内容： 家庭保洁服务，2小时起订。 （云家政暂时不提供带...",
+          "price":"30元/小时",
+          "oldPrice":"50",
+          "hasSelled":"1034",
+          "favorable":""
+        },
+        {
+          "detailId":"52",
+          "imgUrl":"http://img.daoway.cn/img/2016/12/28/7175ec52-16ab-4c8c-a12a-2abf7c05451b_thumb.jpg",
+          "CName":"家庭保洁",
+          "description":"服务内容： 家庭保洁服务，2小时起订。 （云家政暂时不提供带...",
+          "price":"30元/小时",
+          "oldPrice":"50",
+          "hasSelled":"1034",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"6",
+      "imgUrl": "http://img.daoway.cn/img/2016/06/21/6441ca7d-cd34-4474-870d-2ee9180232f6_thumb.jpg",
+      "serviceName": "哈喽维修",
+      "time": "235",
+      "rate":"98",
+      "score": "98",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"5",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"6",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"7",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"8",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"9",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"7",
+      "imgUrl": "http://img.daoway.cn/img/2016/09/20/314afa69-1924-465b-89a2-cb65302dea68_thumb.jpg",
+      "serviceName": "洁道夫",
+      "time": "1078",
+      "rate":"93",
+      "score": "91",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/9e20dab2-8792-4fcc-86d3-b2640963080c_thumb.jpg",
+          "CName":"挂机空调清洗 深度清洗",
+          "description":"服务流程： 1.验机 2.准备工具、做家庭防护 3.专用清洗...",
+          "price":"119元/台",
+          "oldPrice":"150",
+          "hasSelled":"29",
+          "favorable":"首单立减5元"
+        }
+      ]
+    },
+    {
+      "serviceId":"8",
+      "imgUrl": "http://img.daoway.cn/img/2016/09/12/1861ffae-b30c-4bd7-8f32-a7212ca7028b_thumb.jpg",
+      "serviceName": "牛牛家电清洗",
+      "time": "285",
+      "rate":"97",
+      "score": "91",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/9e20dab2-8792-4fcc-86d3-b2640963080c_thumb.jpg",
+          "CName":"挂机空调清洗 深度清洗",
+          "description":"服务流程： 1.验机 2.准备工具、做家庭防护 3.专用清洗...",
+          "price":"119元/台",
+          "oldPrice":"150",
+          "hasSelled":"29",
+          "favorable":"首单立减5元"
+        }
+      ]
+    },
+    {
+      "serviceId":"9",
+      "imgUrl": "http://img.daoway.cn/img/2017/04/27/7529c8e8-d0d5-4bf5-9865-bbe291715079_thumb.jpg",
+      "serviceName": "家侍",
+      "time": "266",
+      "rate":"100",
+      "score": "93",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/9e20dab2-8792-4fcc-86d3-b2640963080c_thumb.jpg",
+          "CName":"挂机空调清洗 深度清洗",
+          "description":"服务流程： 1.验机 2.准备工具、做家庭防护 3.专用清洗...",
+          "price":"119元/台",
+          "oldPrice":"150",
+          "hasSelled":"29",
+          "favorable":"首单立减5元"
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/9e20dab2-8792-4fcc-86d3-b2640963080c_thumb.jpg",
+          "CName":"挂机空调清洗 深度清洗",
+          "description":"服务流程： 1.验机 2.准备工具、做家庭防护 3.专用清洗...",
+          "price":"119元/台",
+          "oldPrice":"150",
+          "hasSelled":"29",
+          "favorable":"首单立减5元"
+        }
+      ]
+    },
+    {
+      "serviceId":"10",
+      "imgUrl": "http://img.daoway.cn/img/2017/02/14/e2b168c4-c462-48e8-a3a6-dabf56e409b6_thumb.jpg",
+      "serviceName": "十分到家",
+      "time": "3600",
+      "rate":"99",
+      "score": "96",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2017/04/10/fb5ba4d1-8a43-4b29-9d1e-8264dab22b0d_thumb.jpg",
+          "CName":"6/6p 电池更换（电池）",
+          "description":"TCL旗下服务品牌，配件严格把关，售后180天保修  故障描...",
+          "price":"149元/台",
+          "oldPrice":"199",
+          "hasSelled":"17",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2017/04/10/2558b68b-1f80-4ba2-8293-0bdd60a80da4_thumb.jpg",
+          "CName":"6s/6sp 电池更换（电池）",
+          "description":"TCL旗下服务品牌，配件严格把关，售后180天保修  故障描...",
+          "price":"189元/台",
+          "oldPrice":"229",
+          "hasSelled":"3",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2017/04/10/fb5ba4d1-8a43-4b29-9d1e-8264dab22b0d_thumb.jpg",
+          "CName":"6/6p 电池更换（电池）",
+          "description":"TCL旗下服务品牌，配件严格把关，售后180天保修  故障描...",
+          "price":"149元/台",
+          "oldPrice":"199",
+          "hasSelled":"17",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2017/04/10/2558b68b-1f80-4ba2-8293-0bdd60a80da4_thumb.jpg",
+          "CName":"6s/6sp 电池更换（电池）",
+          "description":"TCL旗下服务品牌，配件严格把关，售后180天保修  故障描...",
+          "price":"189元/台",
+          "oldPrice":"229",
+          "hasSelled":"3",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"11",
+      "imgUrl": "http://img.daoway.cn/img/2016/09/20/31043989-f708-4be6-8990-e85fd903fd0f_thumb.jpg",
+      "serviceName": "悦管家",
+      "time": "1925",
+      "rate":"97",
+      "score": "93",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2017/04/10/fb5ba4d1-8a43-4b29-9d1e-8264dab22b0d_thumb.jpg",
+          "CName":"6/6p 电池更换（电池）",
+          "description":"TCL旗下服务品牌，配件严格把关，售后180天保修  故障描...",
+          "price":"149元/台",
+          "oldPrice":"199",
+          "hasSelled":"17",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"12",
+      "imgUrl": "http://img.daoway.cn/img/2017/07/13/2ef5ee91-ce30-4dc1-989b-f8ceaf41f7cb_thumb.jpg",
+      "serviceName": "美道家",
+      "time": "186",
+      "rate":"98",
+      "score": "100",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/07/06/936d07fe-3d05-4db2-bcbd-9f6e556627d5_thumb.jpg",
+          "CName":"微醺派对妆",
+          "description":"绚丽多姿的眼妆是派对的特权,在欢愉的气氛中,尽情释放自我魅力...",
+          "price":"198元/次",
+          "oldPrice":"298",
+          "hasSelled":"0",
+          "favorable":"满100减15元"
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/08/8c608c35-3dc2-45b3-b7ef-02d2d8e90466_thumb.jpg",
+          "CName":"桃花妆",
+          "description":"正所谓人面桃花相映红，想要提升异性缘的话，就少不了桃花妆的助...",
+          "price":"198元/次",
+          "oldPrice":"298",
+          "hasSelled":"5",
+          "favorable":"满100减15元"
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/08/b15d543d-629e-491f-9fc5-5f7bf1ad3456_thumb.jpg",
+          "CName":"生活妆",
+          "description":"在日常生活中用化妆能快速修饰自己的皮肤、脸型等问题，美着呢就...",
+          "price":"198元/次",
+          "oldPrice":"298",
+          "hasSelled":"34",
+          "favorable":"满100减15元"
+        }
+      ]
+    },
+    {
+      "serviceId":"13",
+      "imgUrl": "http://img.daoway.cn/img/2016/02/19/21762b1d-08e9-4dd8-847a-baee2b3b94a3_thumb.jpg",
+      "serviceName": "魔魔达",
+      "time": "875",
+      "rate":"97",
+      "score": "97",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/10/21/3f137eec-32cd-4c56-b60b-c90fafab49df_thumb.jpg",
+          "CName":"儿童房整体换新",
+          "description":"服务内容： 1.多彩换新一站式服务，无需搬家，儿童房整体换新...",
+          "price":"16599元/套",
+          "oldPrice":"",
+          "hasSelled":"0",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/10/24/aa1d71b7-5356-4cbd-b5f2-fd6afba98029_thumb.jpg",
+          "CName":"墙面涂料刷新",
+          "description":"服务内容： 1.墙面换新：墙漆36元/平起，30平起。本服务...",
+          "price":"36元/平米",
+          "oldPrice":"",
+          "hasSelled":"1",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/10/21/3f137eec-32cd-4c56-b60b-c90fafab49df_thumb.jpg",
+          "CName":"儿童房整体换新",
+          "description":"服务内容： 1.多彩换新一站式服务，无需搬家，儿童房整体换新...",
+          "price":"16599元/套",
+          "oldPrice":"",
+          "hasSelled":"0",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2016/10/24/aa1d71b7-5356-4cbd-b5f2-fd6afba98029_thumb.jpg",
+          "CName":"墙面涂料刷新",
+          "description":"服务内容： 1.墙面换新：墙漆36元/平起，30平起。本服务...",
+          "price":"36元/平米",
+          "oldPrice":"",
+          "hasSelled":"1",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"14",
+      "imgUrl": "http://img.daoway.cn/img/2017/04/07/3b0faa5c-fb6a-44a9-8251-d79a4a700a56_thumb.jpg",
+      "serviceName": "极客修",
+      "time": "672",
+      "rate":"95",
+      "score": "98",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"5",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"6",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"7",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"8",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"9",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"15",
+      "imgUrl": "http://img.daoway.cn/img/2016/11/08/e874effd-75d5-408a-84a9-73bfe135b666_thumb.jpg",
+      "serviceName": "美着呢",
+      "time": "182",
+      "rate":"93",
+      "score": "92",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/07/06/936d07fe-3d05-4db2-bcbd-9f6e556627d5_thumb.jpg",
+          "CName":"微醺派对妆",
+          "description":"绚丽多姿的眼妆是派对的特权,在欢愉的气氛中,尽情释放自我魅力...",
+          "price":"198元/次",
+          "oldPrice":"298",
+          "hasSelled":"0",
+          "favorable":"满100减15元"
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/08/8c608c35-3dc2-45b3-b7ef-02d2d8e90466_thumb.jpg",
+          "CName":"桃花妆",
+          "description":"正所谓人面桃花相映红，想要提升异性缘的话，就少不了桃花妆的助...",
+          "price":"198元/次",
+          "oldPrice":"298",
+          "hasSelled":"5",
+          "favorable":"满100减15元"
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/price/2017/06/08/b15d543d-629e-491f-9fc5-5f7bf1ad3456_thumb.jpg",
+          "CName":"生活妆",
+          "description":"在日常生活中用化妆能快速修饰自己的皮肤、脸型等问题，美着呢就...",
+          "price":"198元/次",
+          "oldPrice":"298",
+          "hasSelled":"34",
+          "favorable":"满100减15元"
+        }
+      ]
+    },
+    {
+      "serviceId":"16",
+      "imgUrl": "http://img.daoway.cn/img/2016/01/26/07744489-e94e-41ef-a971-5d01a0db7b8b_thumb.jpg",
+      "serviceName": "理大师",
+      "time": "1294",
+      "rate":"97",
+      "score": "98",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"5",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"6",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        },
+        {
+          "detailId":"7",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"挂机空调深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"68元/次",
+          "oldPrice":"108",
+          "hasSelled":"142",
+          "favorable":""
+        },
+        {
+          "detailId":"8",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗保养",
+          "description":"服务时长： 40分钟  服务流程： 1.验机：检测服务环境是...",
+          "price":"88元/次",
+          "oldPrice":"108",
+          "hasSelled":"10",
+          "favorable":""
+        },
+        {
+          "detailId":"9",
+          "imgUrl":"http://img.daoway.cn/img/2016/03/24/846d16ae-46b9-4c8c-ac6a-d6915eca1c26_thumb.jpg",
+          "CName":"中央空调深度清洗保养",
+          "description":"服务时长： 40分钟  中央空调（1进1出口）服务流程： 1...",
+          "price":"88元/次",
+          "oldPrice":"100",
+          "hasSelled":"25",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"17",
+      "imgUrl": "http://img.daoway.cn/img/2017/01/04/1a613387-b206-4404-866a-b787ce234c56_thumb.jpg",
+      "serviceName": "想帮帮",
+      "time": "108",
+      "rate":"99",
+      "score": "100",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/28/1c37ed3f-8b56-47c3-b7fc-2cc05d3a83ee_thumb.jpg",
+          "CName":"iPhone6换屏—内屏损坏",
+          "description":"服务内容： 1.点触功能或屏幕显示异常； 2.工程师检测后，...",
+          "price":"619元/次",
+          "oldPrice":"720",
+          "hasSelled":"0",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/28/44a2b8b0-2c73-47d0-80be-7f374f9222c5_thumb.jpg",
+          "CName":"iPhone6s换屏—内屏损坏",
+          "description":"服务内容： 1.点触功能或屏幕显示异常； 2.工程师检测后，...",
+          "price":"769元/次",
+          "oldPrice":"1299",
+          "hasSelled":"0",
+          "favorable":""
+        },
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/28/1c37ed3f-8b56-47c3-b7fc-2cc05d3a83ee_thumb.jpg",
+          "CName":"iPhone6换屏—内屏损坏",
+          "description":"服务内容： 1.点触功能或屏幕显示异常； 2.工程师检测后，...",
+          "price":"619元/次",
+          "oldPrice":"720",
+          "hasSelled":"0",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2017/03/28/44a2b8b0-2c73-47d0-80be-7f374f9222c5_thumb.jpg",
+          "CName":"iPhone6s换屏—内屏损坏",
+          "description":"服务内容： 1.点触功能或屏幕显示异常； 2.工程师检测后，...",
+          "price":"769元/次",
+          "oldPrice":"1299",
+          "hasSelled":"0",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"18",
+      "imgUrl": "http://img.daoway.cn/img/2016/09/27/3d2c1284-6a2e-482f-b497-786eac9ae6b4_thumb.jpg",
+      "serviceName": "e清洗",
+      "time": "296",
+      "rate":"98",
+      "score": "82",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/0c0da677-a46a-415d-b475-042e1052c4e2_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗",
+          "description":"服务流程: 1.验机 2.准备工具、注水浸泡 3.拆卸部件、...",
+          "price":"158元/次",
+          "oldPrice":"198",
+          "hasSelled":"20",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/94ef421b-2a43-4819-9622-4b8634f44499_thumb.jpg",
+          "CName":"滚筒洗衣机免拆洗",
+          "description":"服务流程: 1.验机 2.准备工具、注水浸泡 3.刷洗内筒、...",
+          "price":"168元/次",
+          "oldPrice":"200",
+          "hasSelled":"8",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/0c0da677-a46a-415d-b475-042e1052c4e2_thumb.jpg",
+          "CName":"波轮洗衣机深度清洗",
+          "description":"服务流程: 1.验机 2.准备工具、注水浸泡 3.拆卸部件、...",
+          "price":"158元/次",
+          "oldPrice":"198",
+          "hasSelled":"20",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2016/08/29/94ef421b-2a43-4819-9622-4b8634f44499_thumb.jpg",
+          "CName":"滚筒洗衣机免拆洗",
+          "description":"服务流程: 1.验机 2.准备工具、注水浸泡 3.刷洗内筒、...",
+          "price":"168元/次",
+          "oldPrice":"200",
+          "hasSelled":"8",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"19",
+      "imgUrl": "http://img.daoway.cn/img/2017/07/14/0a2b606a-fdf4-4e79-a1b3-b254dfe5f731_thumb.jpg",
+      "serviceName": "极吼吼手机维修",
+      "time": "400",
+      "rate":"90",
+      "score": "93",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/28/baaf2f4e-bd87-4b0e-9b49-cf1d1f8e6f00_thumb.jpg",
+          "CName":"iPhone6s外屏上门维修",
+          "description":"故障描述： 1、手机外屏破碎，显示和触摸正常。 2、工程师检...",
+          "price":"338元/台",
+          "oldPrice":"",
+          "hasSelled":"6",
+          "favorable":""
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/28/baaf2f4e-bd87-4b0e-9b49-cf1d1f8e6f00_thumb.jpg",
+          "CName":"iPhone5s外屏上门维修",
+          "description":"故障描述： 1、手机外屏破碎，显示和触摸正常。 2、工程师检...",
+          "price":"298元/台",
+          "oldPrice":"",
+          "hasSelled":"0",
+          "favorable":""
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/28/baaf2f4e-bd87-4b0e-9b49-cf1d1f8e6f00_thumb.jpg",
+          "CName":"iPhone6外屏上门维修",
+          "description":"故障描述： 1、手机外屏破碎，显示和触摸正常。 2、工程师检...",
+          "price":"308元/台",
+          "oldPrice":"",
+          "hasSelled":"6",
+          "favorable":""
+        },
+        {
+          "detailId":"4",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/28/baaf2f4e-bd87-4b0e-9b49-cf1d1f8e6f00_thumb.jpg",
+          "CName":"iPhone5外屏上门维修",
+          "description":"故障描述： 1、手机外屏破碎，显示和触摸正常。 2、工程师检...",
+          "price":"268元/台",
+          "oldPrice":"",
+          "hasSelled":"0",
+          "favorable":""
+        }
+      ]
+    },
+    {
+      "serviceId":"20",
+      "imgUrl": "http://img.daoway.cn/img/2015/12/28/d53343ce-5818-4ebf-9948-d13aa100ef72_thumb.jpg",
+      "serviceName": "e修鸽",
+      "time": "1721",
+      "rate":"98",
+      "score": "94",
+      "goods":[
+        {
+          "detailId":"1",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/9e20dab2-8792-4fcc-86d3-b2640963080c_thumb.jpg",
+          "CName":"挂机空调清洗 深度清洗",
+          "description":"服务流程： 1.验机 2.准备工具、做家庭防护 3.专用清洗...",
+          "price":"119元/台",
+          "oldPrice":"150",
+          "hasSelled":"29",
+          "favorable":"首单立减5元"
+        },
+        {
+          "detailId":"2",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/bf75aaec-7323-4a81-8cf9-865c0c41f637_thumb.jpg",
+          "CName":"空调维修",
+          "description":"故障描述： 1.专业维修空调不制冷、不制热、风机不转、压缩机...",
+          "price":"120元/台",
+          "oldPrice":"180",
+          "hasSelled":"119",
+          "favorable":"首单立减5元"
+        },
+        {
+          "detailId":"3",
+          "imgUrl":"http://img.daoway.cn/img/2016/11/22/1b5d2150-6d3c-439f-9425-b2dfd50230cb_thumb.jpg",
+          "CName":"普通马桶维修",
+          "description":"故障描述： 1. 马桶维修，马桶配件失灵等故障！专注家庭维修...",
+          "price":"100元/个",
+          "oldPrice":"120",
+          "hasSelled":"195",
+          "favorable":"首单立减5元"
+        }
+      ]
+    }
+
+  ]
+}

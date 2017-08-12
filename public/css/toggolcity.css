@@ -1,0 +1,62 @@
+.togcity-wrap{
+    width: 1200px;
+    margin: 10px auto 0;
+    background: white;
+
+}
+.togcity-nav{
+    height: 265px;
+}
+.togcity-nav-content{
+    position: fixed;
+    width: 1200px;
+    top: 71px;
+    margin: 0 auto;
+    background: white;
+}
+.togcity-nav-content-wrap{
+    height: 208px;
+}
+.hotcity{
+    overflow: hidden;
+}
+.hotcity h3{
+    height: 17px;
+    line-height: 17px;
+    font-size: 17px;
+    margin: 20px 0 10px 0;
+    color: #9292A0;
+}
+.hotcity .ht{
+    overflow: hidden;
+    background: #F8F8F8;
+}
+.hotcity .cy{
+    overflow: hidden;
+    background: #F8F8F8;
+}
+.hotcity .classify_city{
+    float: left;
+    width: 56px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hotcity .qk{
+    margin-top: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.hotcity .qk li {
+    float: left;
+    width: 36px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.hotcity .qk     .active{
+    background: #FB474F;
+    color: white;
+}

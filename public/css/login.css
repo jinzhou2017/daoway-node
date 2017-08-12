@@ -1,0 +1,118 @@
+/*登陆*/
+body{
+    overflow-x: hidden;
+}
+.login-wrap{
+    width: 330px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding: 27px 15px 20px;
+    border-radius: 5px 5px;
+}
+.login-header{
+    height: 70px;
+    width: 298px;
+    background: url("../img/login/houtai-logo.png") no-repeat center;
+    background-size:298px  ;
+    margin: 0 auto;
+}
+.input-group{
+    height: 53px;
+}
+.input-group input{
+    height: 53px;
+}
+.input-group input[type='text']{
+    border-bottom: none;
+}
+.login-wrap input[type='submit']{
+    height: 46px;
+    font-size: 16px;
+    line-height: 46px;
+    border: none;
+    display: block;
+    background-color: #337AB7;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.login-foot{
+    height: 40px;
+    padding: 30px 10px 0;
+
+}
+.login-foot-left{
+    float: left;color: #333333;
+}
+.login-foot-right{
+    float: right;color: #333333;
+}
+
+/*注册*/
+.regist-content{
+
+}
+.regist-content-header input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 13px;
+}
+input[type='button']{
+    height: 46px;
+    font-size: 16px;
+    line-height: 46px;
+    border: none;
+    display: block;
+    background-color: #337AB7;
+    width: 100%;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.regist-content-foot{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.regist-content-foot a{
+    color: #333333;
+}
+.regist-content-check{
+    height: 100px;
+    margin-bottom: 10px;
+}
+.regist-content-check .left{
+    display: inline-block;
+}
+.regist-content-check .left div{
+    height: 50px;
+    width: 202px;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+}
+/*
+.regist-content-check .left #verifyCanvas{
+    height: 50px;
+    width: 202px;
+}*/
+
+.regist-content-check .left input{
+    box-sizing: border-box;
+    width: 202px;
+}
+.regist-content-check .right{
+    float: right;
+    width: 95px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    background: #EEEEEE;
+    cursor: pointer;
+}
+

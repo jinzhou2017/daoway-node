@@ -1,0 +1,189 @@
+/*banner图*/
+.app-ban{
+    position: relative;
+    height: 420px;
+    background: url("../img/loadApp/xiazaiye-_02.jpg") no-repeat center;
+}
+.app-ban-img{
+    position: absolute;
+    top: 200px;
+    left: 632px;
+    width: 308px;
+    height: 96px;
+}
+.app-ban-text{
+    float: right;
+    width: 190px;
+
+
+}
+.app-ban-text a{
+    color: white;
+    font-size: 17px;
+}
+.app-ban-text-top{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 37px;
+    background: #E62E36;
+    margin-bottom: 15px;
+    border-radius: 5px ;
+}
+.app-ban-text-top a:before{
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 27px;
+    background: url("../img/loadApp/iph.png") no-repeat center;
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.app-ban-text-bottom{
+    width: 100%;
+    height: 37px;
+    background: #A0C842;
+    border-radius: 5px ;
+    display: flex;
+    align-items: center;
+}
+.app-ban-text-bottom a:before{
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 27px;
+    background: url("../img/loadApp/and.png") no-repeat center;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 20px;
+}
+/*download*/
+.download{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+.down-img{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.down-text{
+    height: 25px;
+    line-height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: '黑体';
+    text-align: center;
+}
+.down-list{
+    margin-top: 62px;
+    overflow: hidden;
+}
+.down-list-item{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 390px;
+    height: 216px;
+    box-sizing: border-box;
+    border: 1px solid #EAEAEA;
+    white-space: nowrap;
+    font-size: 0;
+}
+.down-list-item-left{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.down-list-item-rigth{
+    float: left;
+    width: 168px;
+
+}
+.down-list-item-rigth p:first-child{
+    margin-top: 70px ;
+    height: 24px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.down-list-item-rigth .text{
+    width: 168px;
+    height: 20px;
+    font-size: 14px;
+    white-space: normal;
+}
+/*banner图2*/
+.app-ban2{
+    position: relative;
+    height: 432px;
+    background-color: #FBF8F8;
+    margin-top: 24px;
+}
+.app-ban2-left{
+    position: absolute;
+    top: 150px;
+    left: 300px;
+
+}
+.app-ban2-left p{
+    margin-top: 10px;
+    margin-left: -40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.app-ban2-right{
+    position: absolute;
+    top: 20px;
+    right: 300px;
+}
+/*banner图3*/
+.app-ban3{
+    position: relative;
+    height: 432px;
+    margin-top: 24px;
+}
+.app-ban3-left{
+    position: absolute;
+    top: 20px;
+    left: 250px;
+
+}
+.app-ban3-right p{
+    margin-top: 10px;
+    margin-left: -40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.app-ban3-right{
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+/*banner图4*/
+.app-ban4{
+    position: relative;
+    height: 480px;
+    background-color: #FBF8F8;
+    margin-top: 24px;
+}
+.app-ban4-left{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+
+}
+.app-ban4-left p{
+    margin-top: 10px;
+    margin-left: -40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.app-ban4-right{
+    position: absolute;
+    top: 20px;
+    right: 250px;
+}
+

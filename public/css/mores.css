@@ -1,0 +1,223 @@
+/*更多服务*/
+.mores-wrap{
+    background: #F8F8F8;
+}
+.huaxian{
+    text-decoration: line-through;
+}
+.mores-wrap em {
+    color: #FB4E55;
+}
+.mores-content{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mores-content h2{
+    height: 85px;
+    line-height: 85px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: '黑体';
+}
+.mores-content .nav{
+    height: 50px;
+    line-height: 50px;
+    background-color: white;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #EAEAEA;
+}
+.mores-content .nav li{
+    float: left;
+    margin-right: 23px;
+    font-size: 16px;
+}
+.mores-content .nav li:hover{
+    color: #FB4E55;
+}
+/*内容区左边*/
+.mores-content-left{
+    float: left;
+    width: 960px;
+    box-sizing: border-box;
+    border: 1px solid #EAEAEA;
+    margin-right: 10px;
+    background-color: white;
+}
+.mores-content-left-top{
+    height: 60px;
+}
+.mores-c-l-t-menu{
+    height: 60px;
+    float: left;
+}
+.mores-c-l-t-menu li {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    color: #474a53;
+    font-family: '黑体';
+    margin: 0 20px;
+}
+.mores-c-l-t-menu .active{
+    color: #FB4E55;
+    border-bottom: 2px solid #FB4E55;
+}
+.mores-c-l-t-menu li span{
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background: url("../img/mores/fuwu_down2.jpg") no-repeat center;
+    margin-left: 5px;
+}
+.mores-c-l-t-page{
+    float: right;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.mores-c-l-t-page button {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #EAEAEA;
+    margin: 0 15px;
+    background: none;
+}
+/*内容区左边列表*/
+.mores-content-left-list{
+    width: 960px;
+    box-sizing: border-box;
+    border-left: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+}
+.mores-content-left-list li {
+    height: 200px;
+    border-bottom:1px solid #EAEAEA;
+}
+.mores-content-left-list li:nth-child(even):hover{
+    background-color: #F8F8F8;
+}
+.mores-content-left-list .item-left img{
+    width: 140px;
+    height: 140px;
+}
+.mores-content-left-list .item-left{
+    padding: 30px;
+    float: left;
+}
+.mores-content-left-list .item-middle {
+    float: left;
+    padding-top: 30px;
+}
+.mores-content-left-list .item-middle h3{
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.mores-content-left-list .item-middle p{
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #929292;
+
+}
+.mores-content-left-list .item-middle p span{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url("../img/mores/home1.png") no-repeat center;
+    margin-right: 10px;
+}
+.mores-content-left-list .item-right{
+    float: right;
+}
+.mores-content-left-list .item-right div{
+    height: 34px;
+    width: 62px;
+    box-sizing: border-box;
+    border: 2px solid #FF7871;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.mores-content-left-list .item-right p:first-child{
+    background:#FF7871 ;
+    height: 15px;
+    color: white;
+}
+.mores-content-left-list .item-right p:last-child{
+    color:#FF7871 ;
+    height: 15px;
+    text-align: center;
+}
+/*内容区右边*/
+.mores-content-right{
+    float: left;
+    width: 230px;
+    box-sizing: border-box;
+    border: 1px solid #EAEAEA;
+    background-color: white;
+}
+.mores-content-right h2{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid  #EAEAEA;
+}
+/*内容区右边列表*/
+.mores-content-right-list{
+    width: 230px;
+    box-sizing: border-box;
+    border-left: 1px solid #EAEAEA;
+    border-right: 1px solid #EAEAEA;
+}
+.mores-content-right-list li {
+    height: 200px;
+    width: 217px;
+    margin: 0 auto;
+    border-bottom: 1px solid #EAEAEA;
+}
+.mores-content-right-list li:nth-child(even):hover{
+    background-color: #F8F8F8;
+}
+.mores-content-right-list li div{
+    padding: 30px 80px 0;
+}
+.mores-content-right-list li img{
+    width: 70px;
+    height: 70px;
+}
+.mores-content-right-list li p:nth-child(2){
+    height: 36px;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    font-family: '黑体';
+    font-weight: bold;
+    color: #333333;
+}
+.mores-content-right-list li p:nth-child(3){
+    height: 48px;
+    line-height: 48px;
+    font-size: 15px;
+    text-align: center;
+    color: #929292;
+}
+/*底部分页*/
+.mores-content .mores-foot{
+    float: left;
+    width: 960px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+}
+
+

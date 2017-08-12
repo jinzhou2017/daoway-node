@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+/**/
+.poitioncity{
+	background-color: #fff;
+	border-top:1px solid #e7e7e7;
+}
+/* 城市列表 */
+.content{
+	width: 1200px;
+	height: 265px;
+	background-color: #fff;
+	margin:0 auto;
+	position: fixed;
+	left: 0;
+	top: 71px;
+	right: 0;
+	bottom: 0;
+}
+/**/
+.hotcity,.quickly{
+	width: 1200px;
+	margin:40px auto 0;
+}
+.hotcity ul {
+	width: 100%;
+	background-color: #f8f8f8;
+	margin:0;
+}
+.poitioncity h3 {
+	color:  #929292;
+	font-size: 16px;
+}
+.poitioncity ul li {
+	font-size: 16px;
+	line-height: 40px;
+	padding:0 1%;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+}
+.quickly ul li {
+	line-height: 40px;
+	width: 3%;
+	display: inline-block;
+	text-align: center;
+	margin:0 0.5%;
+}
+.quickly ul li.first {
+	padding:0 10px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	background-color: #fb474f;
+	color: #fff;
+}

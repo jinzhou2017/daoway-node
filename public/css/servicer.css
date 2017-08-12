@@ -1,0 +1,117 @@
+/*服务商*/
+.servicer-wrap{
+    background-color: #FBF8F8;
+}
+.servicer-content{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.servicer-content h1{
+    height: 85px;
+    line-height: 85px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.servicer-list-wrap{
+    overflow: hidden;
+}
+.servicer-content-list{
+    height: 345px;
+    text-align: left;
+
+}
+.servicer-content-item{
+    width: 242px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    padding: 16px 16px 0 16px;
+    background-color: #FFFFFF;
+}
+.servicer-content-item:hover{
+    box-shadow: 10px 10px 10px #EAEAEA ;
+}
+.servicer-content-item img {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+}
+.servicer-content-item h2{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.servicer-content-item h2:before{
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin-right: 10px;
+    background: url("../img/servicer/home1.png");
+}
+.servicer-content-item-foot span:nth-child(1){
+    float: left;
+    color: #929292;
+    font-size: 12px;
+}
+.servicer-content-item-foot span:nth-child(2){
+    float: right;
+    color: #929292;
+    font-size: 12px;
+}
+.servicer-content-right{
+    position: absolute;
+    right: -33px;
+    top: 85px;
+    width: 230px;
+}
+.servicer-content-right-top{
+    width: 230px;
+    height: 300px;
+    background: url("../img/servicer/tuijianfuwushang_03.jpg") no-repeat;
+    margin-bottom: 10px;
+}
+.servicer-content-right-bottom{
+    padding-top: 50px;
+    width: 230px;
+    height: 300px;
+    background: url("../img/servicer/tuijianfuwushang_06.jpg") no-repeat;
+}
+.servicer-content-right-bottom-inner{
+     width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    background: url("../img/servicer/daowayApp.png") no-repeat ;
+    background-size: 130px 130px;
+
+}
+.servicer-content-foot{
+    height: 152px;
+    width: 970px;
+    padding-top: 30px;
+}
+.servicer-content-foot-text{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    border: 1px solid #E5E5E5;
+    background: #FFFFFF;
+}
+.servicer-content-foot-text:after{
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background: url("../img/servicer/fuwu_down2.jpg") no-repeat center;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,300 @@
+/*服务商详情*/
+.serdetail-wrap{
+    background-color: #F8F8F8;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.serdetail-wrap .header{
+    height: 140px;
+    box-sizing: border-box;
+    background-color: white;
+
+
+}
+.serdetail-wrap .header-cont{
+    width: 1200px;
+    height: 140px;
+    margin: 0 auto;
+}
+.serdetail-wrap .header-cont .left{
+    float: left;
+    padding-top: 50px;
+}
+.serdetail-wrap .header-cont .left b{
+    width: 144px;
+    height: 47px;
+    font-size: 36px;
+    line-height: 47px;
+}
+.serdetail-wrap .header-cont .right{
+    float: right;
+    padding-top: 50px;
+}
+.serdetail-wrap .header-cont .right div{
+    float: left;
+    height: 44px;
+    width: 100px;
+}
+.serdetail-wrap .header-cont .right span{
+    height: 18px;
+    float: left;
+    margin-top: 15px;
+    width: 1px;
+    background-color: #E5E7EC;
+}
+.header-cont .right div p:first-child{
+    height: 22px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: #E84B47;
+}
+.header-cont .right div p:last-child{
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+/*导航*/
+.serdetail-wrap .nav-wrap{
+    height: 40px;
+    background-color: #323434;
+    padding-left: 75px;
+}
+.serdetail-wrap li {
+    float: left;
+}
+.serdetail-wrap .active{
+    background-color: #424242;
+}
+.serdetail-wrap li a{
+    height: 40px;
+    width: 140px;
+    display: block;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/*内容*/
+.serdetail-content{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    overflow: hidden;
+}
+/*内容区右边*/
+.serdetail-content .cont-right{
+    float: left;
+    width: 230px;
+}
+.serdetail-content .cont-right-top{
+    width: 230px;
+    height: 290px;
+    background: url("../img/serdetail/fuwushang2_07.jpg") no-repeat center;
+    margin-bottom: 10px;
+}
+.serdetail-content .cont-right-top-inner{
+    padding-top: 50px;
+    padding-left: 58px;
+}
+.serdetail-content .cont-right-top-inner img{
+    width: 115px;
+    height: 115px;
+}
+.serdetail-content .cont-right-bottom{
+    width: 230px;
+    height: 290px;
+    background: url("../img/serdetail/tuijianfuwushang_06.jpg") no-repeat center;
+}
+.serdetail-content .cont-right-bottom-inner{
+    padding-top: 52px;
+    padding-left: 53px;
+}
+.serdetail-content .cont-right-bottom-inner img{
+    width: 130px;
+    height: 130px;
+}
+/*内容区左边*/
+.serdetail-content .cont-left{
+    float: left;
+    width: 960px;
+    box-sizing: border-box;
+    margin-right: 10px;
+
+}
+.serdetail-content .cont-left ul {
+    overflow: hidden;
+}
+.serdetail-content .cont-left-box .title-wrap{
+    padding: 0 30px;
+    background-color: white;
+}
+.serdetail-content .cont-left-box .title{
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.serdetail-content .cont-left-box .title span{
+    border-bottom: 4px solid #fb474f;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.serdetail-content .cont-left-box-item{
+    width: 960px;
+    height: 200px;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+}
+.serdetail-content .cont-left-box-wrap .cont-left-box-item:hover{
+    background-color: #e5e5e5;
+}
+/* 项目服务*/
+.serdetail-content .cont-left-box-item .left{
+    padding: 26px;
+    float: left;
+}
+.serdetail-content .cont-left-box-item .left img{
+    width: 150px;
+    height: 150px;
+}
+.serdetail-content .cont-left-box-item .right{
+    padding: 38px 0;
+    float: left;
+    height: 200px;
+    box-sizing: border-box;
+
+}
+.serdetail-content .cont-left-box-item .right p:nth-child(1){
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #1d1515;
+}
+.serdetail-content .cont-left-box-item .right p:nth-child(2){
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    color: #929292;
+}
+.serdetail-content .cont-left-box-item .right p:nth-child(3){
+    height: 42px;
+    padding-top: 15px;
+    color: #929292;
+}
+.serdetail-content .cont-left-box-item .right p:nth-child(3) span{
+    display: inline-block;
+}
+.serdetail-content .cont-left-box-item .right p:nth-child(3) span:first-child{
+    color: #FC545E;
+    margin-right: 30px;
+}
+.serdetail-content .cont-left-box-item .right p:nth-child(3) span:last-child{
+    margin-left: 500px;
+}
+/* 商家简介*/
+.serdetail-content .cont-left-box2-wrap{
+    margin: 68px 0 10px 0;
+}
+.serdetail-content .introduction{
+    padding: 0 30px;
+    height: 100px;
+}
+.serdetail-content .introduction p:first-child{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+.serdetail-content .introduction p:first-child span{
+    display: inline-block;
+    vertical-align: middle;
+    width: 48px;
+    height: 18px;
+    background: url("../img/serdetail/renzheng.jpg") no-repeat center;
+}
+.serdetail-content .introduction p:last-child{
+    line-height: 28px;
+    color: #929292;
+    margin: 10px 25px 25px 0;
+    font-size: 16px;
+}
+/*用户评论*/
+.serdetail-content .comment-content{
+    width: 960px;
+    background-color: white;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.serdetail-content .comment-content li{
+    width: 900px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.serdetail-content .comment-content li .left{
+    padding-left: 0px;
+}
+.serdetail-content .comment-content li .left img{
+    width: 40px;
+    height: 40px;
+}
+.serdetail-content .comment-content li .right-content{
+    float: left;
+    padding-top: 20px;
+
+}
+.serdetail-content .comment-content .right-content p:nth-child(1){
+    height: 28px;
+    line-height: 28px;
+
+}
+.serdetail-content .comment-content .right-content p:nth-child(2){
+    height: 19px;
+    line-height: 19px;
+}
+.serdetail-content .comment-content .right-content p:nth-child(2) span{
+    margin-right: 10px;
+}
+.serdetail-content .comment-content .right-content p:nth-child(2) span img{
+    height: 10px;
+    width: 10px;
+    vertical-align: middle;
+}
+
+.serdetail-content .comment-content .right-content p:nth-child(3){
+    height: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    margin:  10px 0;
+}
+.serdetail-content .comment-content .right-content p:nth-child(4){
+    height: 40px;
+    line-height: 40px;
+}
+.serdetail-content .comment-content .right-content p:nth-child(4) span img{
+    width: 9px;
+    height: 11px;
+    vertical-align: middle;
+
+}
+/*底部分页*/
+.mores-foot{
+    float: left;
+    width: 960px;
+    height: 152px;
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+}
+.mores-foot .ui-pagination-container .ui-pagination-page-item{
+    /*margin: 0 13px ;*/
+    width: 32px;
+    height: 32px;
+    color: #121212;
+    border: 1px solid #E5E5E5;
+}
+
+
+

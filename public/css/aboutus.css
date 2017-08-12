@@ -1,0 +1,39 @@
+/*关于我们*/
+.aboutus{
+    background-color: #FBF8F8;
+    padding-bottom: 27px;
+}
+.aboutus-header{
+    height: 240px;
+    background: url("../img/aboutus/aboutbanner.jpg") no-repeat center;
+}
+.abouts-text{
+    width: 1160px;
+    margin: 27px auto 0;
+    padding: 0 20px;
+    border: 1px solid #E5E5E5;
+    background-color: white;
+}
+.abouts-text-content{
+    border-bottom: 1px solid #E5E5E5 ;
+}
+.abouts-text-content h1{
+    height: 36px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: bold;
+    border-bottom: 2px solid #E84B47 ;
+    width: 96px;
+    margin: 30px 0;
+}
+.abouts-text-content p {
+    font-size: 18px;
+    color: #929292;
+    margin-bottom: 33px;
+}
+.abouts-text-content:nth-child(3){
+    border: none;
+}
+.abouts-text-content:nth-child(3) p {
+    margin-bottom: 18px;
+}

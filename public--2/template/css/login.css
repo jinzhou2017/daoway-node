@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+ol, p, ul {
+	margin:0 0 1.5em;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+
+/*登录表单*/
+body {
+  padding-top: 50px;
+  height: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.login {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 13%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px #ccc solid;
+}
+.login h2 {
+  background: url(../../img/houtai-logo.png) center no-repeat;
+  height: 70px;
+  line-height: 70px;
+  text-indent: -9999px;
+  background-size: 290px;
+  margin-top: 0;
+}
+.login .form-control {
+  position: relative;
+  height: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.login .icon-1 {
+	width: 36px;
+  border-bottom: 0;
+  border-bottom-left-radius: 0;
+}
+.login input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.login .icon-2 {
+	width: 36px;
+  border-top-left-radius: 0;
+  font-size: 17px;
+}
+.input-group-addon{
+	padding:0;
+}
+.input-group{
+	width: 298px;
+}
+/*按钮*/
+.btnSign{
+	padding: 20px;
+}

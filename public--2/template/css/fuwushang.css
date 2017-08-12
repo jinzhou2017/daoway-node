@@ -1,0 +1,404 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i,em{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+/* ol, p, ul {
+	margin:0 0 1.5em;
+} */
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+body{
+	background: #f8f8f8;
+}
+/*标题*/
+.htit {
+  margin: 10px auto 0;
+  background: #fff;
+}
+.htit-center {
+  height: 140px;
+  line-height: 140px;
+}
+.content, .htit-center, .navtit ul {
+  width: 1200px;
+  margin: 0 auto;
+}
+.htit-left {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 120px;
+}
+.htit-left b {
+  font-size: 36px;
+}
+.htit-left i {
+  margin-left: 10px;
+  color: #929292;
+}
+.htit-left i:nth-child(2) em {
+  color: #121212;
+}
+.htit-left i:nth-child(3) em {
+  color: #e84b47;
+}
+.htit-right {
+  float: right;
+  height: 120px;
+  margin-top: 15px;
+}
+.htit-right li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  line-height: 22px;
+  margin-top: 52px;
+}
+.htit-right li i {
+  display: block;
+  color: #e84b47;
+}
+.htit-right li em {
+  position: relative;
+  bottom: 12px;
+  left: 20px;
+  color: #e5e5e5;
+}
+/*导航*/
+.navtit {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #323434;
+  clear: both;
+}
+.navtit ul li {
+  width: 140px;
+  height: 40px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+}
+.navtit li a:link, .navtit li a:visited {
+  color: #fff;
+}
+.navtit ul li.slibingsclor {
+  background: #424242;
+}
+/*服务相关列表*/
+.content {
+	margin-top: 22px;
+  position: relative;
+}
+.centerleft {
+  width: 960px;
+  background: #fff;
+  float: left;
+  margin-bottom: 50px;
+}
+.centerleft h3{
+	width: 95%;
+  border-bottom: 1px solid #e5e5e5;
+  margin-left: 3%;
+  height: 60px;
+  line-height: 60px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #e5e5e5;
+  background: #fff;
+  overflow: hidden;
+}
+.order i {
+  font-size: 16px;
+  margin: 0 ;
+  color: #121212;
+  padding-bottom: 16px;
+  cursor: pointer;
+}
+.order i.activity {
+  border-bottom: 4px solid #fb474f;
+}
+/*box*/
+.ctop {
+  border: none;
+  border-bottom: 1px solid #e5e5e5;
+  cursor: pointer;
+}
+.ctopH{
+	height: 200px;
+}
+.ctopH:hover {
+  background: #f8f8f8;
+}
+.pic {
+  border: 1px solid #e5e5e5;
+  margin: 25px;
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+.spm {
+	width: 64%;
+  float: left;
+  position: relative;
+  top: 25px;
+}
+.ctop .spm i {
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 99%;
+}
+.spm i {
+  display: block;
+  line-height: 42px;
+  height: 42px;
+}
+.spm i:nth-child(1) {
+  font-size: 18px;
+  color: #1d1515;
+}
+.ctop .price {
+  margin-top: 20px;
+}
+.spm i b {
+  font-size: 20px;
+  color: #fc545e;
+  margin-left: 10px;
+}
+.ctop .price b {
+  font-size: 30px;
+}
+.spm i b em {
+  font-size: 14px;
+  font-style: normal;
+}
+.spm i b.oldpic {
+  font-size: 14px;
+  color: #898989;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 20px;
+}
+.spm i b.oldpic em {
+  text-decoration: line-through;
+}
+.spf {
+  float: right;
+  margin: 20px 60px 0 0;
+}
+.ctop .spf {
+  margin-top: 150px;
+  color: #929292;
+}
+/*分割行*/
+.spacing {
+  width: 100%;
+  margin: 0 auto;
+  height: 152px;
+  clear: both;
+  text-align: center;
+  display: block;
+  background: #f8f8f8;
+  height: 70px;
+}
+/*介绍*/
+.company {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  margin: 10px 25px;
+}
+.company img {
+	height: 18px;
+	width: 48px;
+  margin-left: 10px;
+}
+.profile {
+  line-height: 28px;
+  color: #929292;
+  margin: 10px 25px 25px;
+  font-size: 16px;
+}
+.blank{
+	width: 100%;
+  border-top: 10px solid #f8f8f8;
+}
+.comm{
+	color: #121212;
+  margin-left: 15px;
+}
+/*评论*/
+.conmentss {
+  width: 96%;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 3%;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.avatar {
+	width: 40px;
+	height: 40px;
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: top;
+}
+.conmentss ul {
+  display: inline-block;
+  margin-left: 20px;
+  width: 92%;
+}
+.conmentss ul li {
+  border: none;
+  width: auto;
+  height: auto;
+  display: block;
+  float: none;
+  padding: 0;
+  line-height: 28px;
+  margin: 0;
+}
+.star{
+	width: 70px;
+  margin-left: 0;
+}
+.noColor{
+	left: 0;
+}
+.noColor>img{
+	width:10px;
+	height: auto;
+}
+.time{
+	margin-left: 10px;
+}
+.conmentss ul li.commentdetail {
+  line-height: 26px;
+  font-size: 16px;
+}
+.conmentss ul li.commentimg {
+  margin: 15px auto;
+}
+.conmentss ul li.commentposition {
+  height: 40px;
+  color: #898989;
+}
+.conmentss ul li.commentposition img {
+  margin-right: 10px;
+  width: 9px;
+  height: 11px;
+}  
+/*分页*/
+.getMore{
+	width: 100%;
+  margin: 0 auto;
+  height: 152px;
+  clear: both;
+  text-align: center;
+}
+.getMore a {
+  border: 1px solid #e5e5e5;
+  margin: 50px 5px;
+  background: #fff;
+  display: inline-block;
+  font-size: 16px;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+.getMore div{
+	display: inline-block;
+}
+a{
+	transition: color .5s;
+}
+.getMore a {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0;
+  font-size: 14px;
+  color: #121212;
+}
+.getMore a.num:hover {
+  background: #fe454a;
+  color: #fff;
+}
+.getMore a.greycolor {
+  color: #929292;
+}
+.getMore a.acv {
+  background: #fe454a;
+  color: #fff;
+}
+.getMore a.num {
+  display: inline-block;
+  width: 32px;
+}
+/*右侧*/
+.centerright {
+  width: 230px;
+  float: right;
+  position: relative;
+  margin-left: 0;
+}
+.rightct {
+  width: 230px;
+  border: none;
+  background: #fff;
+  text-align: center;
+}
+.erweima3 {
+  width: 230px;
+  height: 290px;
+  /*background: rgba(255,0,0,.5);*/
+  background: url(../../img/tuijianfuwushang_06.jpg) no-repeat center;
+	margin-top: 10px;
+}
+.erweima2{
+  width: 230px;
+  height: 290px;
+  /*background: rgba(255,0,0,.5);*/
+  background: url(../../img/fuwushang2_07.jpg) no-repeat center;
+  margin-top: 10px;
+}
+.erweima2 {
+  margin-top: 0;
+  padding-top: 50px;
+}
+.erweima3 img {
+  width:130px;
+  margin: 50px 0 0 50px;
+}
+.erweima2 img, .erweima3 img {
+  text-align: center;
+  margin-left: 0;
+}
+/*.erweima img {
+  margin: 50px 0 0 50px;
+}*/

@@ -1,0 +1,223 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i,em{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+/* ol, p, ul {
+	margin:0 0 1.5em;
+} */
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+body{
+	background: #fbf8f8;
+}
+.service-center {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+/*服务分类*/
+.h2{
+	line-height: 85px;
+	width: 1200px;
+	margin:0 auto;
+	font-size: 18px;
+	font-weight: 600;
+}
+.bright {
+	margin: 0 10px;
+	font-weight: normal;
+}
+.h2 i {
+	cursor: pointer;
+}
+.cnav {
+	color: #fb4e55;
+}
+/*左边介绍部分*/
+.centerleft {
+	width: 960px;
+	float: left;
+	margin-bottom: 50px;
+}
+.ctop {
+	cursor: pointer;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	border-top: none;
+	height: 220px;
+}
+.pic{
+	border:1px solid #e5e5e5;
+	margin: 30px;
+	float: left;
+	width: 160px;
+	height: 160px;
+}
+.spm {
+
+	float: left;
+	position: relative;
+	top: 25px;
+}
+.spm i {
+	display: block;
+	line-height: 42px;
+	height: 42px;
+}
+.spm i:nth-child(1) {
+	font-size: 18px;
+	color: #1d1515; 
+}
+.spm i b {
+	font-size: 20px;
+	color: #fc545e;
+	margin-left:10px;
+}
+.spm i b em {
+	font-size: 14px;
+  font-style: normal;
+}
+.spm i b.oldpic {
+  font-size: 14px;
+  color: #898989;
+  margin-left: 40px;
+  font-weight: normal;
+}
+/*删除线*/
+.spm i b.oldpic em {
+  text-decoration: line-through;
+}
+.spm i .youhui {
+	border:1px solid #fb474f;
+	color: #fb474f;
+	font-size: 12px;
+	padding:0 6px;
+	border-radius: 6px;
+	text-align: center;
+	font-style: normal;
+	margin-left: 10px;
+	height: 24px;
+	line-height: 24px;
+}
+.spm i .selled {
+  color: #fb474f;
+  margin-left: 10px;
+  font-style: normal;
+}
+/*扫一扫*/
+.spf {
+  float: right;
+  margin: 20px 60px 0 0;
+}
+.spf b {
+  display: block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+}
+.spf b:nth-child(3) {
+  color: #fb474f;
+}
+/*服务描述*/
+.cdown {
+  clear: both;
+  background: #fff;
+  padding: 30px 20px;
+  border: 1px solid #e5e5e5;
+  margin-top: 10px;
+}
+.cdown b {
+  border-bottom: 3px solid #fb474f;
+  padding: 5px;
+  margin-top: 10px;
+  width: 66px;
+  display: block;
+}
+.cdown p {
+  line-height: 24px;
+  margin: 15px 0 5px;
+  font-size: 14px;
+}
+/*右侧商家介绍*/
+.centerright {
+  width: 230px;
+  float: right;
+  position: relative;
+  margin-left: 10px;
+}
+.rightct {
+  width: 230px;
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  text-align: center;
+}
+.rightct h3 {
+  font-size: 20px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: left;
+}
+.rightct img{
+	text-align: center;
+	margin:40px 50px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 80px;
+}
+.rightct p{
+    text-align: left;
+    padding: 0 10px;
+    line-height: 36px;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.rightct p#name{
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.rightct p i {
+  float: right;
+  color: #fb474f;
+}
+.erweima {
+  width: 230px;
+  height: 290px;
+  background: url(../../img/tuijianfuwushang_06.jpg) no-repeat center;
+ 	/*background: rgba(200,0,0,.3);*/
+ 	margin-top: 10px;
+}
+.erweima img{
+  width: 130px;
+  height: auto;
+  margin: 50px 0 0 50px;
+}
+

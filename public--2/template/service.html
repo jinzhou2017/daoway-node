@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="到位，到家，上门服务，家政服务，上门维修，上门按摩，搬家，北京家政服务，上海家政服务">
+	<meta name="description" content="到位是中国领先的O2O上门服务平台，汇聚上万种高品质到家服务。家政服务，上门按摩，上门维修，搬家，一站直约，安心到家。现已覆盖北京，上海，深圳，广州，杭州等70多个城市。">
+	<title>到位APP - 高品质上门服务直约平台，家政服务，上门按摩，上门维修，搬家，安心到家！</title>
+	<link rel="shortcut icon" type="text/css" href="http://www.daoway.cn/pcimages/favicon.png">
+	<link rel="shortcut icon" type="text/css" href="../img/favicon.png">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/service.css">
+</head>
+<body>
+	<h2 class="h2">服务商</h2>
+	<!-- 服务中心 -->
+	<div class="service-center">
+		<!-- 左侧列表 -->
+		<div class="centerleft">
+			<div class="tab" id="serveWrap">
+				<ul class="ulactivety"></ul>
+				<!--<ul class="ulactivety">-->
+					<!--<li>-->
+						<!--<img src="../img/service2.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service3.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service4.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service1.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service2.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service3.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service4.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+					<!--<li>-->
+						<!--<img src="../img/service1.jpg" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+							<!--<img src="../img/home1.png" alt="">-->
+							<!--<b>宜生到家</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单13004单-->
+							<!--<i>好评98%</i>-->
+						<!--</p>-->
+					<!--</li>-->
+				<!--</ul>-->
+			</div>
+
+			<div id="getMore">
+				<span>查看更多商家<img src="../img/fuwu_down2.jpg" alt=""></span>
+			</div>
+			<div class="showInfo" style="display: none">
+				<span>没有更多了~~~~</span>
+			</div>
+		</div>
+		<div id="jion" class="centerright">
+			<img class="shop" src="../img/shangjia/tuijianfuwushang_03.jpg" alt="">
+			<div class="erwei">
+				<img src="../img/shangjia/daowayApp.png" alt="">
+			</div>
+		</div>
+	</div>
+	<script src='../js/jquery-1.12.0.min.js'></script>
+	<!--artTemplate模板-->
+	<script src="../js/template-web.js"></script>
+	<script>
+		$(function(){
+      //ajax发送请求数据
+//      $.get('/daowei',function(data){
+////      console.log(data)
+//        var html = template('serviceList', data);
+//        $('#serveWrap').append(html);
+//
+////       $('#navbar-nav').innerHTML = template('navhref',data)
+//      })
+
+      var clickNum = 0; //点击的次数
+      $("#getMore").on('click', function(event) {
+        event.preventDefault();
+        clickNum++;
+				// var iNum = 10*clickNum; //每次点击开始加载的第一个索引值
+        var iNum = 4*clickNum; //每次点击开始加载的第一个索引值
+        getMore(iNum, clickNum);
+      });
+
+      function getMore(num, cNum){
+        $.get('/daowei',function(data){
+          if (data.service.length > 0) {
+
+            var i = num;
+            var si = 0;
+            var x = parseInt((data.service.length) / 4);//x为每4个一组的组数
+//						console.log(x)
+            if (cNum >= x) {
+              $("#getMore").hide();
+              $('.showInfo').show()//当点击更多的次数 ≥ 组数时，隐藏按钮
+//              $("#getMore").innerHTML='没有更多内容了~~~'; //当点击更多的次数 ≥ 组数时，隐藏按钮
+            }
+            // 页面生成
+//            var html = template('serviceList', data);
+//            $('#serveWrap').append(html);
+
+//var i = num;
+            for(; i < data.service.length; i++){
+              var htmltxt = "";
+              si++;
+              htmltxt =`<li>
+													<a href="fuwushang.html?serviceId=${data.service[i].serviceId}">
+														<img src="${data.service[i].imgUrl}" alt="">
+														<p style="margin-top: 15px;">
+														<img src="../img/home1.png" alt="">
+														<b>${data.service[i].serviceName}</b>
+													</p>
+													<p class="pp">
+														已接单<em id="times">${data.service[i].time}</em>单
+													<i>好评<em id="rate">${data.service[i].rate}</em>%</i>
+													</p>
+													</a>
+											</li>`
+//              var title = data.books[i].title;
+//              htmltxt += '<dd>';
+//              htmltxt += '<h5 class="date">'+title+'</h5>';
+              if(si> 4){
+                break;
+              }
+              $("#serveWrap ul").append(htmltxt);
+            }
+
+          }
+
+
+        })
+      }
+      getMore(0);
+
+		})
+
+	</script>
+	<!--<script id="serviceList" type="text/html">-->
+    <!--<ul class="ulactivety">-->
+			<!--{{each service item i}}-->
+				<!--{{if i < 8}}-->
+				<!--<li>-->
+					<!--<a href="fuwushang.html?serviceId={{item.serviceId}}">-->
+						<!--<img src="{{item.imgUrl}}" alt="">-->
+						<!--<p style="margin-top: 15px;">-->
+						<!--<img src="../img/home1.png" alt="">-->
+						<!--<b>{{item.serviceName}}</b>-->
+						<!--</p>-->
+						<!--<p class="pp">-->
+							<!--已接单<em id="times">{{item.time}}</em>单-->
+							<!--<i>好评<em id="rate">{{item.rate}}</em>%</i>-->
+						<!--</p>-->
+					<!--</a>-->
+				<!--</li>-->
+			  <!--{{/if}}-->
+			<!--{{/each}}-->
+      <!--</ul>-->
+	<!--</script>-->
+</body>
+</html>

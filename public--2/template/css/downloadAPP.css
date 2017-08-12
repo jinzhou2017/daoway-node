@@ -1,0 +1,201 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+/*头部大图*/
+.download {
+	width: 100%;
+	height: 420px;
+	background: url('../../img/banner3.jpg') no-repeat center;
+  margin:0 auto;
+}
+.down {
+	width: 1200px;
+	height: 420px;
+	margin:0 auto;
+	padding-top: 204px;
+	padding-right:340px; 
+}
+.down dl{
+	float: right;
+	width: 308px;
+	height: 96px;
+}
+.down dl dt {
+  float: left;
+}
+.down dl dd {
+	float: right;
+	width: 188px;
+	background: green;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 5px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 20px;
+}
+/*dl的第二个子元素*/
+.down dl dd:nth-child(2){
+	background: #e62e36;
+}
+.down dl dd:nth-child(3){
+  margin-top: 15px;
+  background: #a0c842;
+}
+.down dl dd a {
+  color: #fff;
+}
+.down dl dd img {
+	width: 22px;
+	height: auto;
+	margin-right: 18px;
+	margin-bottom: 5px;
+}
+/*服务列表*/
+.download-wrap{
+	background: #fff;
+	padding-bottom: 30px; 
+}
+.downloadbox{
+	width:1200px;
+	margin:0 auto;
+	text-align: center;
+	padding-top: 60px;
+}
+.downloadbox img{
+	width: 242px;
+	height: 31px;
+}
+.downloadbox p{
+	text-align: center;
+	font-size: 22px;
+	margin-top: 10px;
+	color: #3d3838;
+}
+.listimg {
+	margin-top: 50px;
+}
+.listimg li {
+	width: 32.5%;
+	margin-right: .5%;
+	height: 216px;
+	border:1px solid #eaeaea;
+	display: inline-block;
+	padding-top: 20px;
+	margin-top: 10px;
+}
+.listimg li img {
+	width: 168px;
+	height: 166px;
+	text-align: left;
+	float: left; 
+	margin-left: 38px;
+}
+.listimg li span {
+	float: right;
+	margin-top:55px;
+}
+.listimg li span i {
+	display: block;
+	line-height: 20px;
+	text-align: left;
+	width: 180px;
+	overflow: hidden;
+	color: #1d1515;
+}
+.listimg li span i b {
+  font-size: 18px;
+}
+.listimg li span i:nth-child(2){ 
+	margin-top:10px;
+	color: #1d1515;
+}	
+/*服务速度*/
+.bggrey {
+	height: 480px;
+	width: 100%;
+	background: #f8f8f8;
+}
+.dcenter{
+	width: 1200px;
+	margin:0 auto;
+}
+.price{
+	float: left;
+	margin:200px 100px;
+	font-size: 22px;
+	text-align: center;
+	color: #3d3838;
+}
+.price img{
+	width: 183px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+.greyImgF{
+	width: 305px;
+	height: auto;
+	margin-left: 160px;
+	margin-top: 50px;
+}
+.bgwhite{
+	background: #fff;
+}
+.bgf{
+	width: 100%;
+	height: 480px;
+}
+.whiteImg{
+	margin-top: 50px;
+	margin-left: 180px;
+	width: 614px;
+}
+.txt{
+	float: right;
+	margin: 190px 0;
+	font-size: 22px;
+	text-align: center;
+	color: #3d3838;
+	position: relative;
+	right: 200px;
+}
+.txt img{
+	margin-bottom: 10px;
+  width: 180px;
+  height: 30px;
+}
+.greyImgS{
+	width: 401px;
+	height: 378px;
+	margin-left: 160px;
+	margin-top: 50px;
+}

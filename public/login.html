@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/init.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <script type="text/javascript" src="./js/vendor/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="./js/vendor/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./js/vendor/gVerify.js"></script>
+</head>
+<body>
+<!--注册和登陆-->
+<div class="row">
+    <div class="col-md-5"></div>
+    <div class="col-md-4">
+        <div class="login-wrap">
+            <div class="login-header"></div>
+            <div class="login-content">
+                <form action="post">
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                        <input type="text" class="form-control" placeholder="输入昵称或手机号">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                        <input type="password" class="form-control" placeholder="输入密码" >
+                    </div>
+                    <input type="submit" value="登陆">
+                </form>
+                <div class="login-foot">
+                    <a class="login-foot-left" href="#">忘记密码</a>
+                    <a class="login-foot-right" href="#">注册</a>
+                </div>
+            </div>
+            <!--注册-->
+            <div class="regist-content regist" style="display: none">
+                <form action="/users/api/regist" method="post">
+                    <div class="regist-content-header">
+                        <input type="text" placeholder=" 输入手机号" name="number" id="phone">
+                        <div class="regist-content-check">
+                            <div class="left">
+                                <div id="v_container" style="width: 200px;height: 50px;">
+
+                                </div>
+                                <input type="text" id="code_input"  placeholder="  请输入图片中的字符串">
+                            </div>
+                            <button  class="right" id="sendMsg" disabled="disabled">
+                                获取验证码
+
+                            </button>
+                        </div>
+                        <input type="text" id="code" placeholder="  输入验证码" >
+                        <input type="password" id="psw" placeholder="  输入密码" >
+                    </div>
+                    <div>
+                        <input type="checkbox" checked><span>您确认并同意到位用户协议</span>
+                    </div>
+                    <input type="button" value="注册" id="submit">
+                </form>
+                <div class="regist-content-foot">
+                    <a href="" class=".regist-content-foot-login" >已有账户？登陆</a>
+
+                </div>
+            </div>
+            <!--重置密码-->
+            <div class="regist-content chongzhi"  style="display: none">
+                <form action="post">
+                    <div class="regist-content-header">
+                        <input type="text" placeholder="输入手机号">
+                        <div class="regist-content-check">
+                            <div class="left">
+                                <div></div>
+                                <input type="text" placeholder="  请输入图片中的字符串">
+                            </div>
+                            <div class="right">
+                                获取验证码
+                            </div>
+                        </div>
+                        <input type="text" placeholder="  输入验证码" >
+                        <input type="password" placeholder="  输入密码" >
+                    </div>
+                    <div>
+                        <input type="checkbox"><span>您确认并同意到位用户协议</span>
+                    </div>
+                    <input type="submit" value="重置密码">
+                </form>
+                <div class="regist-content-foot">
+                    <a href="" class="back-login">返回</a>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-3"></div>
+</div>
+
+</body>
+<script type="text/javascript">
+    $(function () {
+        $('.regist-content-foot-login').on('click', function () {
+            $('.regist').css({'display': 'none'})
+            $('.login-content').css({'display': ''})
+        })
+        $('.login-foot-right').click(function () {
+            $('.regist').css({'display': ''})
+            $('.login-content').css({'display': 'none'})
+        })
+        $('.back-login').click(function () {
+            $('.chongzhi').css({'display': 'none'})
+            $('.login-content').css({'display': ''})
+        })
+        $('.login-foot-left').click(function () {
+            $('.chongzhi').css({'display': ''})
+            $('.login-content').css({'display': 'none'})
+        })
+
+
+    })
+    /*禁止用户缩放网页*/
+    var scrollFunc=function(e){
+        e=e || window.event;
+        if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome
+            event.returnValue=false;
+        }else if(e.detail){//Firefox
+            event.returnValue=false;
+        }
+    }
+    /*注册事件*/
+    if(document.addEventListener){
+        document.addEventListener('DOMMouseScroll',scrollFunc,false);
+    }//W3C
+    window.onmousewheel=document.onmousewheel=scrollFunc;
+//    短信验证
+    $('#sendMsg').on('click', function () {
+        let number = $('#phone').val()
+        if (!number) {
+            alert('请输入手机号')
+            return
+        }
+        $(this).prop('disabled',false)
+        setTimeout(function () {
+            $(this).prop('disabled',true)
+        },6000)
+        $.get('/users/api/msgCheck',{number:number},function (data) {
+            console.log(data)
+        })
+    })
+    /*图片验证*/
+    var verifyCode = new GVerify({
+        id:"v_container",
+        type:"number",
+        width: 202
+    });
+//    注册请求
+    $('#submit').on('click', ()=>{
+        var res = verifyCode.validate($('#code_input').val())
+        if(!res){
+            alert("验证码错误！！");
+            return
+        }
+        /*获取手机号*/
+        let number = $('#phone').val().trim()
+        /*获取验证码*/
+        let code = $('#code').val().trim()
+        /*获取密码*/
+        let psw = $('#psw').val().trim()
+        if (!psw || !code || !number){
+            alert("请正确输入！！");
+            return
+        } else {
+          $.post('/users/api/regist', {
+            number,code,psw
+          }, function (data) {
+              if (data.state === 'ok'){
+                alert('注册成功！请登录')
+              }else {
+                  alert('手机验证码错误！')
+              }
+          })
+        }
+    })
+
+
+</script>
+</html>

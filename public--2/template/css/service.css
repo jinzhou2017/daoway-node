@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i,em{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+/* ol, p, ul {
+	margin:0 0 1.5em;
+} */
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+body{
+	background: #fbf8f8;
+}
+/*服务商*/
+.h2{
+	line-height: 85px;
+	font-weight: 600;
+	width: 1200px;
+	margin: 0 auto;
+	font-size:18px;
+}
+.service-center {
+	width: 1200px;
+	margin:0 auto;
+	position: relative;
+}
+.centerleft {
+	width: 970px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.tabdiv ul.ulactivety {
+  display: block;
+  margin:0;
+  overflow: hidden;
+}
+.tab .ulactivety li:hover {
+  box-shadow: 5px 5px 10px #ccc;
+}
+.centerleft ul li {
+	width: 232px;
+	height: 300px;
+	border: 1px solid #eaeaea;
+	padding:10px;
+	float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.centerleft ul li img{
+	width: 210px;
+	height: 210px;
+}
+.centerleft ul p {
+	height: 26px;
+	line-height: 26px;
+	margin:0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.centerleft ul p img {
+	margin-bottom: 5px;
+  margin-right: 6px;
+  width: 18px;
+  height: 17px;
+}
+.centerleft ul p b {
+	font-size: 16px;
+	margin-left: 0.1rem;
+}
+.centerleft p.pp {
+	font-size: 12px;
+	color: #929292;
+}
+.centerleft p.pp i {
+  float: right;
+}
+
+#getMore,.showInfo{
+	width: 100%;
+	margin: 0 auto;
+	height: 152px;
+	clear: both;
+	text-align: center;
+}
+#getMore span,.showInfo span{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	margin: 50px 5px;
+	background: #fff;
+	display: inline-block;
+	font-size:16px;
+	color: #b1b1b1;
+	cursor: pointer;
+}
+#getMore span img{
+	width: 12px;
+	height: 7px;
+	margin-left: 5px;
+}
+.showInfo span{
+	text-align: center;
+	border: none;
+	background: no-repeat;
+	color: #8aa917;
+	margin: 0 auto;
+}
+.centerright {
+	width: 230px;
+	float: right;
+}
+.shop{
+	width: 230px;
+}
+.erwei {
+	width: 230px;
+	height: 290px;
+	background: url(../../img/tuijianfuwushang_06.jpg) no-repeat center;
+	margin-top: 10px;
+}
+.erwei img {
+	width: 130px;
+	margin: 50px 0 0 50px;
+}

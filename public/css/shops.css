@@ -1,0 +1,139 @@
+/*商家入驻*/
+.shops-content{
+    height: 300px;
+    background: url("../img/shops/information.jpg") no-repeat center;
+
+}
+.shops-box{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.shops-box-img{
+    margin-left: 200px;
+}
+.shops-box-text{
+    margin-left: 200px;
+    font-family: '黑体';
+}
+.shops-box-text b{
+    height: 42px;
+    font-size: 32px;
+    margin-left: -100px;
+    font-weight: 700;
+
+}
+.shops-box-text p{
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+}
+.shops-box2{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+}
+.shops-box-text2{
+    font-family: '黑体';
+    margin-left: 100px;
+}
+.shops-box-text2 b{
+    height: 42px;
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.shops-box-text2 p{
+    margin-left: 24px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.shops-box-img2{
+    margin-left: 300px;
+}
+/*表单*/
+.shops-form{
+    background-color: #F8F8F8;
+    padding-top: 105px;
+    padding-bottom: 50px;
+}
+.shops-form-title{
+    height: 31px;
+    line-height: 31px;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 26px;
+    font-family: '黑体';
+}
+.shops-form-title span {
+    color: #FB474F;
+}
+.shops-form-wrap{
+    width: 660px;
+    margin: 0 auto;
+}
+.shops-form-item{
+    color: #333333;
+    height: 46px;
+}
+.shops-form-item:nth-child(2){
+    height: 88px;
+    position: relative;
+}
+#bb{
+    height: 88px;
+    position: absolute;
+    left: 140px;
+    top: 14px;
+}
+#bb label{
+    width: 56px;
+    height: 40px;
+    margin: 0 7px;
+
+}
+#bb input{
+    margin-bottom: 20px;
+}
+.shops-form-item input[type='text']{
+    width: 500px;
+    height: 32px;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px 5px;
+    margin-left: 17px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.shops-form-item em{
+    color: red;
+}
+.shops-form-item span {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 120px;
+    height: 46px;
+    line-height: 46px;
+}
+.shops-form-wrap input[type='submit']{
+    background-color: #FB474F;
+    color: white;
+    text-align: center;
+    height: 36px;
+    width: 127px;
+    display: block;
+    margin: 30px auto 0;
+    border: 1px solid;
+    border-radius: 5px 5px;
+}
+.shops-form .foot-text {
+    height: 15px;
+    width: 660px;
+    font-size: 15px;
+    color: #898989;
+    text-align: center;
+    margin: 20px auto 0;
+}

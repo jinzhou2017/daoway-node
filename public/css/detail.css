@@ -1,0 +1,158 @@
+/*首页详情*/
+.detail-wrap{
+    background-color: #FBF8F8;
+}
+.detail-content{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.detail-content em{
+    color: #FB4E55;
+    font-weight: bold;
+}
+.detail-content h2{
+    height: 85px;
+    line-height: 85px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*右边*/
+.detail-content-right{
+    float: left;
+    width: 230px;
+
+}
+.detail-c-r-bottom{
+    height: 290px;
+    box-sizing: border-box;
+    background: url("../img/detail/tuijianfuwushang_06.jpg") no-repeat center;
+    padding-top: 50px;
+}
+.detail-c-r-bottom-inner{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    background: url("../img/detail/daowayApp.png") no-repeat ;
+    background-size: 130px 130px;
+
+}
+.detail-c-r-top{
+    border: 1px solid #E5E5E5;
+    background: white;
+    margin-bottom: 10px;
+}
+.detail-c-r-top h3 {
+    height: 60px;
+    line-height: 60px;
+    margin-left: 2px;
+    font-size: 20px;
+    font-family: '黑体';
+}
+.detail-c-r-top-content{
+    border-top: 1px solid #E5E5E5;
+    padding-top: 42px;
+
+}
+.detail-c-r-top-content img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 22px;
+}
+.detail-c-r-top-content p{
+    height: 36px;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: left;
+    font-family: 微软雅黑;
+    padding: 0 5px;
+}
+.detail-c-r-top-content p span{
+    color: #FB4776;
+    float: right;
+}
+.detail-c-r-top-content p:nth-child(2){
+    font-size: 20px;
+    text-align: center;
+    font-family: '黑体';
+}
+.detail-content-left{
+    float: left;
+    width: 960px;
+    margin-left: 10px;
+
+}
+/*左边*/
+.detail-content-right{
+
+}
+/*左边上部*/
+.detail-c-l-top{
+    height: 220px;
+    box-sizing: border-box;
+    border: 1px solid #E5E5E5;
+    background: white;
+    margin-right: 10px;
+}
+.detail-c-l-t-item{
+    float: left;
+}
+.detail-c-l-top-left{
+    box-sizing: border-box;
+    padding: 30px;
+}
+.detail-c-l-top-right{
+    float: right;
+    box-sizing: border-box;
+    padding: 20px 60px 0 0;
+}
+.detail-c-l-top-right p{
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.detail-c-l-top-middle{
+    padding-top: 30px;
+}
+.detail-c-l-top-middle p{
+    text-align: left;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+}
+/*左边底部*/
+.detail-c-l-bottom{
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 47px 0 40px 20px;
+    box-sizing: border-box;
+    border: 1px solid #E5E5E5;
+    background: white;
+
+}
+.detail-text-content{
+
+}
+.detail-text-content h1{
+    text-align: center;
+    height: 28px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: bold;
+    border-bottom: 3px solid #E84B47 ;
+    width: 66px;
+    margin-bottom: 23px;
+}
+.detail-text-content p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    height: 20px;
+    margin-bottom: 13px;
+}
+

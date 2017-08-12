@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+ol, p, ul {
+	margin:0 0 1.5em;
+}
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+
+/*登录表单*/
+body {
+  padding-top: 50px;
+  height: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+.regist {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 13%;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px #ccc solid;
+}
+.regist h2, .forgetPwd h2 {
+  background: url(../../img/houtai-logo.png) center no-repeat;
+  height: 70px;
+  line-height: 70px;
+  text-indent: -9999px;
+  background-size: 290px;
+  margin-top: 0;
+}
+.control-group div {
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.control-group input {
+  height: 50px;
+}
+.control-group .input-group img{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+a {
+  color: #333;
+}
+label {
+  display: block;
+  /*兼容ie*/
+  _display: inline;
+  height: 100%;
+  cursor: pointer;
+}
+
+/*按钮*/
+.btnSign{
+	padding: 20px;
+}
+.btnSign a{
+  margin-left: 80px;
+}
+   

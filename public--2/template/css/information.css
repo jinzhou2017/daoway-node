@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: latobold, Verdana, sans-serif;
+  line-height: 1.1;
+}
+h1, h2, h3{
+  font-weight: 600;
+}
+ul,li,i,em{
+	list-style:none;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+}
+/* ol, p, ul {
+	margin:0 0 1.5em;
+} */
+a,a:hover,a:focus{
+	text-decoration: none;
+}
+img{
+	width:100%;
+	vertical-align: middle;
+}
+body,html{
+	height: 100%;
+}
+body{
+	color: #333;
+	overflow-x: hidden; 
+}
+body{
+	background: #fbf8f8;
+}
+/*banner*/
+.banner{
+	width: 100%;
+	height: 300px;
+	background: url(../../img/information.jpg) no-repeat center center;
+}
+.info-one ,.info-two{
+	width: 100%;
+	height: 300px;
+}
+.info-one{
+	background: #fff;
+}
+.one-center, .two-center {
+	width: 1200px;
+	margin: 0 auto;
+}
+.one-center img {
+	width: 166px;
+	height: 166px;
+	margin: 60px;
+}
+.one-center div {
+	float: right;
+	line-height: 60px;
+	padding-top: 100px;
+	margin-right: 150px;
+}
+.one-center b, .two-center b {
+	font-size: 32px;
+}
+.one-center p, .two-center p {
+	font-size: 22px;
+	margin-left: 55px;
+}
+.two-center div {
+	line-height: 60px;
+	padding-top: 90px;
+	float: left;
+}
+.two-center img {
+	float: right;
+	margin:60px;
+	width: 168px;
+	height: 179px;
+}
+/*提交表单*/
+.cooperation {
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 110px;
+}
+.cooperation i {
+  color: #fb474f;
+}
+.cooperation-center {
+	padding-top: 20px;
+	width: 660px;
+	margin:0 auto 50px;
+	text-align: center;
+}
+.tname {
+	line-height: 46px;
+	height: 46px;
+}
+.cooperation-center div i {
+	width: 120px;
+	text-align: right;
+	float: left;
+	display: block;
+}
+.cooperation-center div em {
+	color: red;
+	margin-left: 5px;
+}
+.cooperation-center div div {
+	float: left;
+}
+.cooperation-center div input[type=text], .cooperation-center div input[type=tel] {
+  width: 500px;
+  padding-left: 15px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  border:1px solid #d1d1d1;
+  margin-left: 10px;
+}
+.choose{
+	line-height: 40px;
+	height: 88px;
+}
+.choose #bb{
+	position: relative;
+	right: 15px;
+}
+.choose b input {
+	margin-right: 2px;
+}
+.choose label {
+	margin: 0 6px;
+}
+.choose #note {
+	width: 120px;
+	height: 22px;
+	line-height: 22px;
+}
+.tabbtn {
+	width: 126px;
+	height: 36px;
+	background: #fb474f;
+	line-height: 36px;
+	color: #fff;
+  border-radius: 6px;
+  border:none;
+  margin-top: 30px;
+}
+.p{
+	color: #898989;
+	text-align: center;
+	margin-top: 20px;
+}
