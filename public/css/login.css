@@ -52,7 +52,7 @@ body{
 
 /*注册*/
 .regist-content{
-
+position: relative;
 }
 .regist-content-header input{
     width: 100%;
@@ -115,4 +115,14 @@ input[type='button']{
     background: #EEEEEE;
     cursor: pointer;
 }
-
+.regist-content .getmima{
+    width: 95px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #EEEEEE;
+    position: absolute;
+    top: 62px;
+    right: 0px;
+    cursor: pointer;
+}

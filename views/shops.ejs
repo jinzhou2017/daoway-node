@@ -1,0 +1,151 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/init.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/shops.css">
+        <script type="text/javascript" src="/js/vendor/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/js/vendor/jquery.flexslider-min.js"></script>
+    </head>
+    <body>
+    <!--顶部导航-->
+    <% include temp/header.ejs%>
+    <!--商家入驻-->
+    <div class="shops-wrap">
+        <div class="shops-content"></div>
+        <div class="shops-box">
+        <div class="shops-box-img">
+            <img src="./img/shops/information1.jpg" alt="">
+        </div>
+        <div class="shops-box-text">
+            <b>1.“互联网+”很美，但获取用户太贵？</b>
+            <p>到位平台累计用户量接近1000万，完全开放，供入驻商家免费共享</p>
+        </div>
+    </div>
+        <div class="shops-box2">
+            <div class="shops-box-text2">
+                <b>2、服务只覆盖少数地区，打广告太浪费？</b>
+                <p>按商家的服务区域定向展示，精准提升品牌，轻松获取高质量订单</p>
+            </div>
+            <div class="shops-box-img2">
+                <img src="./img/shops/information2.jpg" alt="">
+            </div>
+        </div>
+        <div class="shops-box">
+            <div class="shops-box-img">
+                <img src="./img/shops/information3.jpg" alt="">
+            </div>
+            <div class="shops-box-text">
+                <b>3、服务太低频，用户留存低、回头太难？</b>
+                <p>团结就是力量，低频+低频=高频，多种上门服务互推，回头客不难</p>
+            </div>
+        </div>
+        <div class="shops-box2">
+            <div class="shops-box-text2">
+                <b>4、渠道太分散，各种渠道推广费时费力？</b>
+                <p>入驻平台即加入“到位服务联盟”，直接让上数百个渠道帮您推广</p>
+            </div>
+            <div class="shops-box-img2">
+                <img src="./img/shops/information4.jpg" alt="">
+            </div>
+        </div>
+        <div class="shops-box">
+            <div class="shops-box-img">
+                <img src="./img/shops/information5.jpg" alt="">
+            </div>
+            <div class="shops-box-text">
+                <b>5、技术投入大、运营成本高、利润太低？</b>
+                <p>到位免费提供完善的O2O管理平台，无需技术投入，节约大量成本</p>
+            </div>
+        </div>
+        <div class="shops-form">
+            <p class="shops-form-title">提交<span>合作</span>信息</p>
+            <form action="post" class="shops-form-wrap">
+                <div class="shops-form-item"><span><em>*</em>公司名称:</span><input type="text"/></div>
+                <div class="shops-form-item">
+                    <span><em>*</em>服务项目:</span>
+                    <div id="bb">
+                        <input type="checkbox" id="1" value="家庭保洁"><label for="1">家庭保洁</label>
+                        <input type="checkbox" id="2" value="上门按摩"><label for="2">上门按摩</label>
+                        <input type="checkbox" id="3" value="维修"><label for="3">维修</label>
+                        <input type="checkbox" id="4" value="家电清洗"><label for="4">家电清洗</label>
+                        <input type="checkbox" id="5" value="洗衣洗鞋"><label for="5">洗衣洗鞋</label>
+                        <input type="checkbox" id="6" title="保姆月嫂"><label for="6">保姆月嫂</label><br>
+                        <input type="checkbox" id="7" value="搬家" ><label for="7" style="margin-right: 35px">搬家</label>
+                        <input type="checkbox" id="8" value="上门养车"><label for="8">上门养车</label>
+                        <input type="checkbox" id="9" value="鲜花"><label for="9">鲜花</label>
+                        <input type="checkbox" id="10" value="美容美体"><label for="10">美容美体</label>
+                        <input style="width: 120px; height: 22px; line-height: 22px" type="text" id="note"><label for="note">其它</label>
+                    </div>
+                </div>
+                <div class="shops-form-item"><span><em>*</em>联系电话:</span><input type="text"/></div>
+                <div class="shops-form-item"><span><em>*</em>联系人:</span><input type="text"/></div>
+                <div class="shops-form-item"><span><em>*</em>服务覆盖城市:</span><input type="text"/></div>
+                <div class="shops-form-item"><span><em>*</em>日接单能力:</span><input type="text"/></div>
+                <div class="shops-form-item"><span>APP/公众账号:</span><input type="text"/></div>
+                <div class="shops-form-item"><span>公司网址:</span><input type="text"/></div>
+                <input type="submit" value="提交商品信息">
+            </form>
+            <p class="foot-text">招商电话：010-64522010 （工作时间：周一至周五 9:00 - 18:00 法定假日除外）</p>
+        </div>
+    </div>
+
+    <!--底部-->
+    <% include temp/footer.ejs%>
+
+
+
+
+
+    <script type="text/javascript">
+        /*轮播图初始化*/
+        $(document).ready(function(){
+            $('.flexslider').flexslider({
+                directionNav: true,
+                pauseOnAction: false
+            });
+        });
+        /*侧栏导航*/
+        $(function(){
+            $(".ban-menu-item").hover(function(){
+                $(this).addClass("is-show");
+            },function(){
+                $(this).removeClass("is-show");
+            });
+        })
+        /*顶部动画*/
+        $(function(){
+            $(window).scroll( function(ev) {
+                /* ...do something... */
+                var top = $(this).scrollTop();
+                if (top > 70){
+                    $('.nav').addClass('anim')
+                } else {
+                    $('.nav').removeClass('anim')
+                }
+
+
+            } )
+        })
+        /*禁止用户缩放网页*/
+        var scrollFunc=function(e){
+            e=e || window.event;
+            if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome
+                event.returnValue=false;
+            }else if(e.detail){//Firefox
+                event.returnValue=false;
+            }
+        }
+        /*注册事件*/
+        if(document.addEventListener){
+            document.addEventListener('DOMMouseScroll',scrollFunc,false);
+        }//W3C
+        window.onmousewheel=document.onmousewheel=scrollFunc;
+    </script>
+    </body>
+</html>

@@ -16,6 +16,7 @@
     "js-base64": "^2.1.9",
     "mockjs": "^1.0.1-beta3",
     "moment": "^2.18.1",
+    "mongoose": "^4.11.6",
     "morgan": "~1.8.1",
     "request": "^2.81.0",
     "serve-favicon": "~2.4.2"

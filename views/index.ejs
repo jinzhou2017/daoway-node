@@ -1,0 +1,189 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/init.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <script type="text/javascript" src="/js/vendor/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/js/vendor/jquery.flexslider-min.js"></script>
+        <script src="/js/vendor/template-web.js"></script>
+    </head>
+    <body>
+    <!--顶部导航-->
+    <% include temp/header.ejs%>
+    <!--banner图-->
+    <div class="ban-wrap">
+        <div class="ban-menu">
+            <ul class="ban-menu-list">
+                <li class="ban-menu-item">
+                    <span class="text">家居保洁</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>小时工</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">上门按摩</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>中医推拿</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">上门维修</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>手机维修</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">家电清洗</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>空调清洗</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">衣物洗护</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>洗鞋</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">家居保洁</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>小时工</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">家居保洁</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>小时工</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">家居保洁</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>小时工</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">家居保洁</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>小时工</li>
+                    </ul>
+                </li>
+                <li class="ban-menu-item">
+                    <span class="text">家居保洁</span>
+                    <span class="icon"></span>
+                    <ul class="layer">
+                        <li>小时工</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="ban-image">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li style="background:url(img/ban/banner1.jpg) 50% 0 no-repeat;"></li>
+                    <li style="background:url(img/ban/banner2.jpg) 50% 0 no-repeat;"></li>
+                    <li style="background:url(img/ban/banner3.jpg) 50% 0 no-repeat;"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--content-->
+    <div class="content-wrap">
+
+    </div>
+    <script id="list" type="text/html">
+        {{each firstPage item i}}
+        <div class="content">
+        <h1>{{item.title}}</h1>
+        <h2>{{item.description}}</h2>
+        <a href="/users/api/moreser?id={{item.serviceId}}" class="serve">更多服务</a>
+        <ul class="content-list">
+            {{each item.content value i}}
+            <li class="content-item">
+                <img src="{{value.imgUrl}}" alt="">
+                <h2>{{value.serviceName}}</h2>
+                <p>{{value.description}}</p>
+                <div class="content-item-foot">
+                    <span><span class="price">{{value.price}}</span>元/{{value.priceDesc}}</span>
+                    <a href="">查看详情</a>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+        </div>
+        {{/each}}
+    </script>
+  <!--底部-->
+    <% include temp/footer.ejs%>
+
+
+
+
+
+
+    <script type="text/javascript">
+        /*轮播图初始化*/
+        $(document).ready(function(){
+            $('.flexslider').flexslider({
+                directionNav: true,
+                pauseOnAction: false
+            });
+        });
+        /*侧栏导航*/
+        $(function(){
+            $(".ban-menu-item").hover(function(){
+                $(this).addClass("is-show");
+            },function(){
+                $(this).removeClass("is-show");
+            });
+        })
+        /*顶部动画*/
+        $(function(){
+            $(window).scroll( function(ev) {
+                /* ...do something... */
+                var top = $(this).scrollTop();
+                if (top > 70){
+                    $('.nav').addClass('anim')
+                } else {
+                    $('.nav').removeClass('anim')
+                }
+
+
+            } )
+        })
+        /*禁止用户缩放网页*/
+        var scrollFunc=function(e){
+            e=e || window.event;
+            if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome
+                event.returnValue=false;
+            }else if(e.detail){//Firefox
+                event.returnValue=false;
+            }
+        }
+        /*注册事件*/
+        if(document.addEventListener){
+            document.addEventListener('DOMMouseScroll',scrollFunc,false);
+        }//W3C
+        window.onmousewheel=document.onmousewheel=scrollFunc;
+        $.get("/users/api/firstPage ", function(data){
+            var html = template('list', data)
+            $('.content-wrap').append(html)
+        });
+    </script>
+    </body>
+</html>
