@@ -1,0 +1,155 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/init.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/detail.css">
+        <script type="text/javascript" src="/js/vendor/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/js/vendor/jquery.flexslider-min.js"></script>
+        <script src="/js/vendor/template-web.js"></script>
+    </head>
+    <body>
+    <!--顶部导航-->
+    <% include temp/header.ejs%>
+    <!--首页详情-->
+    <div class="detail-wrap">
+        <div class="detail-content">
+            <h2>所有分类&nbsp;>&nbsp;家庭保洁&nbsp;>&nbsp;<em>保洁</em></h2>
+            <div class="detail-content-left">
+                <div class="detail-c-l-top">
+                </div>
+
+                <script id="detail" type="text/html">
+                    <div class="detail-c-l-top-left detail-c-l-t-item">
+                        <img style="width: 160px" src="{{imgUrl}}" alt="">
+                    </div>
+                    <div class="detail-c-l-top-middle detail-c-l-t-item">
+                        <p>{{CName}}</p>
+                        <p>价格 <em>{{price}}元/次</em>&nbsp;&nbsp;原价{{oldPrice}}</p>
+                        <p>已售 <em>{{hasSelled}}</em></p>
+                    </div>
+                    <div class="detail-c-l-top-right detail-c-l-t-item">
+                        <img src="./img/detail/下载.png" alt="">
+                        <p>扫一扫</p>
+                        <p><em>立即预约</em></p>
+                    </div>
+                </script>
+
+
+
+                <div class="detail-c-l-bottom">
+                    <div class="detail-text-content">
+                        <h1>到位简介</h1>
+                        <p>服务特点:</p>
+                        <p>1、采用区域分类式的专业工具</p>
+                        <p>2、外国进口环保的清洁剂</p>
+                        <p>3、专业化的服务流程，品质的保障</p>
+                        <p>4、价格透明，专时专用，满足您日常打扫寻求</p>
+                        <p>5、完善的售后跟踪体系，充分了解客户体验后感受</p>
+                        <p>6、每位客户只能购买一次</p>
+                        <p>7、仅限新用户使用</p>
+                        <p></p>
+                        <p>服务范围：</p>
+                        <p>可在服务时间内自行安排服务范围或项目，若超出服务时间请及与现场保洁员或公司客服沟通。</p>
+                        <p>为您家提供物体表面擦拭，除尘等常规的清洁和物品的整理服务。</p>
+
+                    </div>
+                    <div class="detail-text-content">
+                        <h1>服务范围</h1>
+                        <p>北京</p>
+                    </div>
+                    <div class="detail-text-content">
+                        <h1>服务时间</h1>
+                        <p>09:00-18:00最近可预约时间:<em>08月08日 13:00</em></p>
+                    </div>
+                    <div class="detail-text-content">
+                        <h1>订购须知</h1>
+                        <div style="background-color: #FBF8F8;">
+                            <p>1.商家将在您下单后30分钟内确认接单；</p>
+                            <p>2.订单确认后，修改订单或退款需提前2小时通知；</p>
+                            <p>3.预约时间前2小时内退单将按30元/人扣取误工费；</p>
+                            <p>4.如商家接单后爽约将全额退款并向您额外赔付30元；</p>
+                            <p>5.为保障您的权益，所有费用请通过到位平台支付</p>
+                        </div>
+
+                    </div>
+                    <div class="detail-text-content">
+                        <h1>商家简介</h1>
+                        <p>美居管家隶属于北京泡泡生活科技有限公司。从2014年成立之初，公司始终秉承着一切了客户的服务宗旨，充分整合各方优质资源为客户提供以英式</p><br>
+                        <p>管家为特色，传统家庭服务行业为基础的全品类服务项目，为您解决选择中的困扰，解放您双手与精力，让您生活更加惬意。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="detail-content-right">
+                <div class="detail-c-r-top">
+                    <h3>服务商</h3>
+                    <div class="detail-c-r-top-content">
+                        <img src="./img/detail/f7f3d341-b073-4a2c-bb3a-4657815836cc.jpg" alt="">
+                        <p>美居管家</p>
+                        <p>成功接单 <span>42</span></p>
+                        <p>接单率 <span>89%</span></p>
+                        <p>好评率 <span>100%</span></p>
+                    </div>
+                </div>
+                <div class="detail-c-r-bottom">
+                    <div class="detail-c-r-bottom-inner">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!--底部-->
+    <% include temp/footer.ejs%>
+
+
+
+
+
+    <script type="text/javascript">
+        /*顶部动画*/
+        $(function(){
+            $(window).scroll( function(ev) {
+                /* ...do something... */
+                var top = $(this).scrollTop();
+                if (top > 70){
+                    $('.nav').addClass('anim')
+                } else {
+                    $('.nav').removeClass('anim')
+                }
+
+
+            } )
+        })
+        /*禁止用户缩放网页*/
+        var scrollFunc=function(e){
+            e=e || window.event;
+            if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome
+                event.returnValue=false;
+            }else if(e.detail){//Firefox
+                event.returnValue=false;
+            }
+        }
+        /*注册事件*/
+        if(document.addEventListener){
+            document.addEventListener('DOMMouseScroll',scrollFunc,false);
+        }//W3C
+        window.onmousewheel=document.onmousewheel=scrollFunc;
+        $(function () {
+            $.get('/users/api/detail', function (data) {
+                var html = template('detail', data[0])
+                console.log(html)
+                $('.detail-c-l-top').append(html)
+            })
+        })
+    </script>
+    </body>
+</html>

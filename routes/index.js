@@ -34,6 +34,10 @@ router.get('/shops', (req, res) => {
 router.get('/aboutus', (req, res) => {
   res.render('aboutus.ejs')
 })
+/*toggolcity*/
+router.get('/toggolcity', (req, res) => {
+  res.render('toggolcity.ejs')
+})
 /*处理验证码请求*/
 let code = null
 router.get('/api/msgCheck', (req, res)=>{

@@ -1,0 +1,198 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/init.css">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/css/mores.css">
+        <link rel="stylesheet" href="/css/jquery.pagination.css">
+        <script type="text/javascript" src="/js/vendor/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="/js/vendor/jquery.page.js"></script>
+        <script src="/js/vendor/template-web.js"></script>
+    </head>
+    <body>
+    <!--顶部导航-->
+    <% include temp/header.ejs%>
+    <!--更多服务-->
+    <div class="mores-wrap">
+        <div class="mores-content">
+            <h2>所有分类 > <em> 家庭保洁 </em> > </h2>
+            <ul class="nav">
+                <li>分类</li>
+                <li>全部</li>
+                <li>小时工</li>
+                <li>开荒保洁</li>
+                <li>擦玻璃</li>
+                <li>深度保洁</li>
+                <li>家居养护</li>
+                <li>杀虫除螨</li>
+            </ul>
+            <div class="mores-content-left">
+                <div class="mores-content-left-top">
+                    <ul class="mores-c-l-t-menu">
+                        <li class="active">推荐排序</li>
+                        <li>销量高<span></span></li>
+                        <li>好评多<span></span></li>
+                        <li>上门快<span></span></li>
+                        <li>价格低<span></span></li>
+                    </ul>
+                    <div class="mores-c-l-t-page">
+
+                    </div>
+                </div>
+                <ul class="mores-content-left-list">
+                    <script id="list" type="text/html">
+                        {{each goods item i}}
+                        <li>
+                            <a href="/users/api/detail?detailId={{item.detailId}}">
+                            <div class="item-left">
+                                <img src="{{item.imgUrl}}" alt="">
+                            </div>
+                            <div class="item-middle">
+                                <h3>{{item.CName}}</h3>
+                                <p>{{item.description}}</p>
+                                <p> <em>{{item.price}}/小时</em> &nbsp;&nbsp;&nbsp;<i class="huaxian">{{item.oldPrice}}</i>元</p>
+                                <p><span></span>云家政已售{{item.hasSelled}}&nbsp;&nbsp;&nbsp;{{item.favorable}}</p>
+                            </div>
+                            <div class="item-right">
+                                <div >
+                                    <p>最快上门</p>
+                                    <p>2小时</p>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+
+                        {{/each}}
+                    </script>
+
+                </ul>
+            </div>
+            <div class="mores-content-right">
+                <h2>服务商</h2>
+                <ul class="mores-content-right-list">
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+                    <li>
+                    <div>
+                        <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                    </div>
+                    <p>云家政</p>
+                    <p>已成功接单29019 好评86%</p>
+                </li>
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+                    <li>
+                        <div>
+                            <img src="./img/mores/5cf8680f-0264-4686-ba05-145700db6063_thumb.jpg" alt="">
+                        </div>
+                        <p>云家政</p>
+                        <p>已成功接单29019 好评86%</p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="mores-foot">
+                <div class="box">
+                    <div class="tcdPageCode"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!--底部-->
+    <% include temp/footer.ejs%>
+
+
+
+
+
+    <script type="text/javascript">
+        $(".tcdPageCode").createPage({
+            pageCount:50,
+            current:1,
+            backFn:function(p){
+                //console.log(p);
+            }
+        });
+        /*顶部动画*/
+        $(function(){
+            $(window).scroll( function(ev) {
+                /* ...do something... */
+                var top = $(this).scrollTop();
+                if (top > 70){
+                    $('.nav').addClass('anim')
+                } else {
+                    $('.nav').removeClass('anim')
+                }
+
+
+            } )
+        })
+        /*禁止用户缩放网页*/
+        var scrollFunc=function(e){
+            e=e || window.event;
+            if(e.wheelDelta && event.ctrlKey){//IE/Opera/Chrome
+                event.returnValue=false;
+            }else if(e.detail){//Firefox
+                event.returnValue=false;
+            }
+        }
+        /*注册事件*/
+        if(document.addEventListener){
+            document.addEventListener('DOMMouseScroll',scrollFunc,false);
+        }//W3C
+        window.onmousewheel=document.onmousewheel=scrollFunc;
+        /*请求数据*/
+        $(function () {
+            $.get('/users/api/moreser', function (data) {
+                var html = template('list', data[0])
+                $('.mores-content-left-list').append(html)
+            })
+        })
+    </script>
+    </body>
+</html>
